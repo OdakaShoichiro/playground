@@ -1,0 +1,33 @@
+{
+	"name": "playground",
+	"dockerComposeFile": "./compose.yml",
+	"service": "devcontainer",
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"python.analysis.typeCheckingMode": "basic"
+			},
+			"extensions": [
+				"eamodio.gitlens",
+				"gruntfuggly.todo-tree",
+				"Ikuyadeu.r",
+				"janisdd.vscode-edit-csv",
+				"julialang.language-julia",
+				"mechatroner.rainbow-csv",
+				"mhutchie.git-graph",
+				"ms-python.python",
+				"ms-toolsai.jupyter",
+				"naumovs.color-highlight",
+				"redhat.vscode-yaml",
+				"reditorsupport.r",
+				"reditorsupport.r",
+				"streetsidesoftware.code-spell-checker",
+				"tamasfe.even-better-toml"
+			]
+		}
+	},
+	"workspaceFolder": "/workspace",
+	"forwardPorts": [
+		8888
+	]
+}

@@ -1,0 +1,20 @@
+renv::restore()
+
+install.packages(
+    c(
+        "languageserver",
+        "IRkernel",
+        "car",
+        "rpart",
+        "tseries"
+    ),
+    repos = "http://cran.rstudio.com/"
+)
+
+IRkernel::installspec(
+    name = "ir",
+    displayname = "R (renv)",
+    rprofile = "/workspace/.Rprofile"
+)
+
+renv::snapshot()

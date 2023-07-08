@@ -1,0 +1,18 @@
+version: "0.2"
+language: en
+words:
+  - devcontainer
+  - displayname
+  - installspec
+  - renv
+  - rpart
+  - Rscript
+  - tseries
+  - venv
+flagWords: []
+ignorePaths:
+  - .devcontainer/*
+  - .venv
+  - renv
+  - requirements-dev.lock
+  - requirements.lock
