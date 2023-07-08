@@ -6,11 +6,17 @@ dist/
 wheels/
 *.egg-info
 
-# venv
+# python virtualenv
 .venv
 
-# renv
+# r virtualenv
 renv
+
+# julia virtualenv
+julia_pkgs
+
+# nodejs
+node_modules
 
 # notebooks
 notebook

@@ -18,7 +18,7 @@ https://docs.nvidia.com/cuda/wsl-user-guide/index.html
 
 ## Startup
 
-Python・Rについては、初期セットアップを行ってください。
+各言語について、初期セットアップを行ってください。
 
 ```shell
 # Python
@@ -26,4 +26,10 @@ rye sync
 
 # R
 Rscript setup-renv.R 
+
+# Julia
+# coming soon...
+
+# Node.js
+npm install
 ```

@@ -3,14 +3,21 @@ FROM nvidia/cuda:12.2.0-devel-ubuntu20.04
 # FROM ubuntu:20.04
 
 ARG UID=1000
+
 ARG JULIA_VERSION="1.9.1"
 ARG JULIA_VERSION_MAJOR_MINOR="1.9"
+
 ARG JUPYTER_PORT=8888
+
+ENV PATH="/opt/julia-${JULIA_VERSION}/bin:${PATH}"
+
+ENV TZ=Asia/Tokyo
+
+ENV JULIA_DEPOT_PATH=/workspace/julia_pkgs
 
 COPY .devcontainer/installed_packages.list /tmp/
 
 ENV DEBIAN_FRONTEND=noninteractive
-ENV TZ=Asia/Tokyo
 
 # Install apt packages
 RUN apt update && \
@@ -19,9 +26,11 @@ RUN apt update && \
     cmake \
     curl \
     dirmngr \
+    fonts-ipafont \
     gfortran \
     git \
-    fonts-ipafont \
+    nodejs \
+    npm \
     libblas-dev \
     libcurl4-openssl-dev \
     liblapack-dev \
@@ -67,7 +76,6 @@ RUN wget -O julia.tar.gz "https://julialang-s3.julialang.org/bin/linux/x64/${JUL
     sudo tar xzf julia.tar.gz -C /usr/local --strip-components=1 && \
     rm julia.tar.gz && \
     julia -e 'using Pkg; Pkg.add("IJulia")'
-ENV PATH="/opt/julia-${JULIA_VERSION}/bin:${PATH}"
 
 # Expose Jupyter port
 EXPOSE ${JUPYTER_PORT}

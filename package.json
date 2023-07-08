@@ -1,0 +1,18 @@
+{
+  "name": "playground",
+  "version": "0.1.0",
+  "description": "Playground",
+  "main": "index.js",
+  "dependencies": {
+    "cspell": "^6.31.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OdakaShoichiro/playground.git"
+  },
+  "author": "Shoichieo Odaka"
+}
