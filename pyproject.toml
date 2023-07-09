@@ -19,7 +19,6 @@ dependencies = [
     "statsmodels>=0.14.0",
     "sympy>=1.12",
     "torch>=2.0.1",
-    "jupyter-matlab-proxy>=0.6.0",
 ]
 
 [build-system]
