@@ -6,13 +6,12 @@
   "dependencies": {
     "cspell": "^6.31.1"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cspell": "cspell lint -r /workspace -c /workspace/cspell.yml *"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/OdakaShoichiro/playground.git"
   },
-  "author": "Shoichieo Odaka"
+  "author": "Shoichiro Odaka"
 }

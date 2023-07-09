@@ -1,18 +1,31 @@
 version: "0.2"
 language: en
 words:
+  - cuda
   - devcontainer
   - displayname
   - installspec
+  - ipynb
+  - pkgs
+  - pyproject
   - renv
   - rpart
-  - Rscript
+  - rscript
+  - TOPIX
   - tseries
   - venv
 flagWords: []
 ignorePaths:
   - .devcontainer/*
-  - .venv
-  - renv
+  - .venv/*
+  - "*.ipynb"
+  - julia_pkgs
+  - package.json
+  - package-lock.json
+  - Project.toml
+  - pyproject.toml
+  - Manifest.toml
+  - renv/*
+  - renv.lock
   - requirements-dev.lock
   - requirements.lock
