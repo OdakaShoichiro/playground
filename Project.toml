@@ -1,6 +1,6 @@
 name = "playground"
 uuid = "202075bd-6055-4346-9b2f-69a2d4aa5ce7"
-authors = ["Shoichieo Odaka <instantlily@gmail.com>"]
+authors = ["Shoichieo Odaka <odakas1994@gmail.com>"]
 version = "0.1.0"
 
 [deps]
