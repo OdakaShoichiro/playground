@@ -39,6 +39,7 @@ RUN apt update && \
     sudo \
     texlive \
     texlive-lang-japanese \
+    texlive-plain-generic \
     texlive-xetex \
     wget \
     && rm -rf /var/lib/apt/lists/*

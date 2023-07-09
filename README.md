@@ -20,7 +20,7 @@ https://docs.nvidia.com/cuda/wsl-user-guide/index.html
 
 各言語について、初期セットアップを行ってください。
 
-[setup-all.sh](setup-all.sh) あるいはその中の各言語のセットアップコマンド・スクリプトを実行することでセットアップできます。
+[setup-all.sh](setup/setup-all.sh) あるいはその中の各言語のセットアップコマンド・スクリプトを実行することでセットアップできます。
 
 ## 起動
 

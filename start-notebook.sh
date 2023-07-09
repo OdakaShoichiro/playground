@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 jupyter notebook /workspace/notebook \
     --no-browser \
     --allow-root \

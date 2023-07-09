@@ -1,11 +1,16 @@
+#!/usr/bin/bash
+
 # Python
 rye sync
 
 # R
-Rscript setup-renv.R 
+Rscript /workspace/setup-renv.R 
 
 # Julia
 julia --project='/workspace' -e 'using Pkg; Pkg.instantiate(); Pkg.build("IJulia")'
 
 # Node.js
 npm install
+
+# Jupyter
+bash /workspace/update-jupyter-template.sh

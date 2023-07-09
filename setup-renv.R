@@ -1,3 +1,5 @@
+#!/usr/bin/Rscript
+
 renv::restore()
 
 install.packages(
