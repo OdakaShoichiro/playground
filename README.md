@@ -28,7 +28,7 @@ rye sync
 Rscript setup-renv.R 
 
 # Julia
-# coming soon...
+julia --project='/workspace' -e 'using Pkg; Pkg.instantiate(); Pkg.build("IJulia")'
 
 # Node.js
 npm install

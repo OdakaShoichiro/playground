@@ -13,7 +13,8 @@ ENV PATH="/opt/julia-${JULIA_VERSION}/bin:${PATH}"
 
 ENV TZ=Asia/Tokyo
 
-ENV JULIA_DEPOT_PATH=/workspace/julia_pkgs
+ENV JULIA_PROJECT="/workspace"
+ENV JULIA_DEPOT_PATH="/workspace/julia_pkgs"
 
 COPY .devcontainer/installed_packages.list /tmp/
 
@@ -71,11 +72,10 @@ RUN curl -sSf https://rye-up.com/get | RYE_NO_AUTO_INSTALL=1 RYE_INSTALL_OPTION=
 # Install renv
 RUN sudo R -e "install.packages('renv', repos = 'http://cran.rstudio.com/')"
 
-# Install Julia & libraries
+# Install Julia
 RUN wget -O julia.tar.gz "https://julialang-s3.julialang.org/bin/linux/x64/${JULIA_VERSION_MAJOR_MINOR}/julia-${JULIA_VERSION}-linux-x86_64.tar.gz" && \
     sudo tar xzf julia.tar.gz -C /usr/local --strip-components=1 && \
-    rm julia.tar.gz && \
-    julia -e 'using Pkg; Pkg.add("IJulia")'
+    rm julia.tar.gz
 
 # Expose Jupyter port
 EXPOSE ${JUPYTER_PORT}
