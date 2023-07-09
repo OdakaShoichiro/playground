@@ -16,20 +16,16 @@ NVIDIA製のGPUを搭載したWindows端末上で、WSL2をバックエンドに
 また、NVIDIA公式の案内に従い、`CUDA Support for WSL 2`をインストールしてください。
 https://docs.nvidia.com/cuda/wsl-user-guide/index.html
 
-## Startup
+## 初期セットアップ
 
 各言語について、初期セットアップを行ってください。
 
-```shell
-# Python
-rye sync
+[setup-all.sh](setup-all.sh) あるいはその中の各言語のセットアップコマンド・スクリプトを実行することでセットアップできます。
 
-# R
-Rscript setup-renv.R 
+## 起動
 
-# Julia
-julia --project='/workspace' -e 'using Pkg; Pkg.instantiate(); Pkg.build("IJulia")'
+[start-notebook.sh](start-notebook.sh) を実行し、ターミナルに表示される、以下のようなURLをブラウザに貼り付けて遷移してください。(トークン部分は実行ごとに可変)
 
-# Node.js
-npm install
+```
+http://127.0.0.1:8888/tree?token=d7a1adaabd11cc136262b0e121eea810d1699b0d8cbae5bf
 ```
