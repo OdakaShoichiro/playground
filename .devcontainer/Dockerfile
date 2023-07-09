@@ -1,7 +1,5 @@
 FROM nvidia/cuda:12.2.0-devel-ubuntu20.04 
 
-# FROM ubuntu:20.04
-
 ARG UNAME=odakas
 ARG UID=1000
 
@@ -19,11 +17,9 @@ ENV TZ=Asia/Tokyo
 ENV JULIA_PROJECT="/workspace"
 ENV JULIA_DEPOT_PATH="/workspace/julia_pkgs"
 
-COPY .devcontainer/installed_packages.list /tmp/
-
+# Install apt packages
 ENV DEBIAN_FRONTEND="noninteractive"
 
-# Install apt packages
 RUN apt update && \
     apt upgrade -y ca-certificates && \
     apt install -y --no-install-recommends \
@@ -61,7 +57,7 @@ RUN apt update && \
 
 ENV DEBIAN_FRONTEND="newt"
 
-# Add user for develpment
+# Add user for development
 RUN useradd -m -s /bin/bash -G sudo "${UNAME}" --uid "${UID}" && \
     echo '${UNAME} ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 USER odakas
@@ -80,8 +76,5 @@ RUN wget -O julia.tar.gz "https://julialang-s3.julialang.org/bin/linux/x64/${JUL
     sudo tar xzf julia.tar.gz -C /usr/local --strip-components=1 && \
     rm julia.tar.gz
 
-# Expose Jupyter port
 EXPOSE ${JUPYTER_PORT}
-
-# Set working directory
 WORKDIR /workspace
