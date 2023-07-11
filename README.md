@@ -1,7 +1,7 @@
 # Playground
 
 分析系のコードの実行環境をまとめたdevcontainerです。  
-様々な言語をJupyter Notebookで実行できます。
+様々な言語を`Jupyter Lab`で実行できます。
 
 ## 動作環境
 
@@ -24,7 +24,7 @@ https://docs.nvidia.com/cuda/wsl-user-guide/index.html
 
 ## 起動
 
-[start-notebook.sh](start-notebook.sh) を実行し、ターミナルに表示される、以下のようなURLをブラウザに貼り付けて遷移してください。(トークン部分は実行ごとに可変)
+[start-lab.sh](start-lab.sh) を実行し、ターミナルに表示される、以下のようなURLをブラウザに貼り付けて遷移してください。(トークン部分は実行ごとに可変)
 
 ```
 http://127.0.0.1:8888/tree?token=d7a1adaabd11cc136262b0e121eea810d1699b0d8cbae5bf

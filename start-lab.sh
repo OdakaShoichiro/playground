@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-jupyter notebook /workspace/notebook \
+jupyter lab /workspace/notebook \
     --no-browser \
     --allow-root \
     --gpus all \
