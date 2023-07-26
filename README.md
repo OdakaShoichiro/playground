@@ -29,3 +29,5 @@ https://docs.nvidia.com/cuda/wsl-user-guide/index.html
 ```
 http://127.0.0.1:8888/tree?token=d7a1adaabd11cc136262b0e121eea810d1699b0d8cbae5bf
 ```
+
+VSCode の Jupyter の拡張機能でもある程度の利用は可能です。
