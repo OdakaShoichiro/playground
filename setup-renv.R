@@ -8,6 +8,7 @@ install.packages(
         "IRkernel",
         "car",
         "rpart",
+        "tidyverse",
         "tseries"
     ),
     repos = "http://cran.rstudio.com/"
