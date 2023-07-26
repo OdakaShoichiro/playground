@@ -1,4 +1,4 @@
 #!/usr/bin/bash
 
 dpkg-query -W -f='${Package}=${Version}\n' > \
-    .devcontainer/installed_packages.list
+    /workspace/.devcontainer/installed_packages.list

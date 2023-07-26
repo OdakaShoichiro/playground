@@ -60,7 +60,7 @@ ENV DEBIAN_FRONTEND="newt"
 
 # Add user for development
 RUN useradd -m -s /bin/bash -G sudo "${UNAME}" --uid "${UID}" && \
-    echo '${UNAME} ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
+    echo "${UNAME} ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 USER odakas
 WORKDIR /home/odakas
 
