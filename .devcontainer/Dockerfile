@@ -1,9 +1,9 @@
-FROM nvidia/cuda:12.2.0-devel-ubuntu20.04 
+FROM nvidia/cuda:12.2.0-devel-ubuntu22.04 
 
 ARG UNAME=odakas
 ARG UID=1000
 
-ARG JULIA_VERSION="1.9.1"
+ARG JULIA_VERSION="1.9.2"
 ARG JULIA_VERSION_MAJOR_MINOR="1.9"
 
 ARG NODE_VERSION_MAJOR="18"
@@ -45,7 +45,7 @@ RUN apt update && \
     && rm -rf /var/lib/apt/lists/*
 
 RUN apt-key adv --keyserver "keyserver.ubuntu.com" --recv-keys "E298A3A825C0D65DFD57CBB651716619E084DAB9" && \
-    add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/' && \
+    add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/' && \
     curl -fsSL "https://deb.nodesource.com/setup_${NODE_VERSION_MAJOR}.x" | bash -
 
 RUN apt update && \
