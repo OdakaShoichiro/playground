@@ -1,10 +1,12 @@
-# python virtualenv
+# Python
 .venv
 
-# r virtualenv
+# R
 renv
+.RData
+.Rhistory
 
-# julia virtualenv
+# Julia
 julia_pkgs
 
 # nodejs
