@@ -1,32 +1,52 @@
 {
-	"name": "playground",
-	"dockerComposeFile": "./compose.yml",
-	"service": "devcontainer",
-	"customizations": {
-		"vscode": {
-			"settings": {
-				"python.analysis.typeCheckingMode": "basic"
-			},
-			"extensions": [
-				"eamodio.gitlens",
-				"gruntfuggly.todo-tree",
-				"Ikuyadeu.r",
-				"janisdd.vscode-edit-csv",
-				"mechatroner.rainbow-csv",
-				"mhutchie.git-graph",
-				"ms-python.python",
-				"ms-toolsai.jupyter",
-				"naumovs.color-highlight",
-				"redhat.vscode-yaml",
-				"reditorsupport.r",
-				"reditorsupport.r",
-				"streetsidesoftware.code-spell-checker",
-				"tamasfe.even-better-toml"
-			]
-		}
-	},
-	"workspaceFolder": "/workspace",
-	"forwardPorts": [
-		8888
-	]
+    "name": "playground",
+    "dockerComposeFile": "./compose.yml",
+    "service": "devcontainer",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "breadcrumbs.enabled": true,
+                "cSpell.autoFormatConfigFile": true,
+                "editor.bracketPairColorization.enabled": true,
+                "editor.formatOnSave": true,
+                "editor.guides.bracketPairs": true,
+                "editor.renderControlCharacters": true,
+                "editor.renderLineHighlight": "all",
+                "editor.rulers": [
+                    80,
+                    120
+                ],
+                "files.autoGuessEncoding": true,
+                "files.insertFinalNewline": true,
+                "python.analysis.typeCheckingMode": "basic",
+                "r.libPaths": [
+                    "/workspace/renv/library"
+                ],
+                "workbench.startupEditor": "none"
+            },
+            "extensions": [
+                "eamodio.gitlens",
+                "editorconfig.editor",
+                "gruntfuggly.todo-tree",
+                "Ikuyadeu.r",
+                "janisdd.vscode-edit-csv",
+                "mechatroner.rainbow-csv",
+                "mhutchie.git-graph",
+                "ms-python.python",
+                "ms-toolsai.jupyter",
+                "naumovs.color-highlight",
+                "njpwerner.autodocs",
+                "redhat.vscode-yaml",
+                "reditorsupport.r",
+                "reditorsupport.r",
+                "streetsidesoftware.code-spell-checker",
+                "tamasfe.even-better-toml",
+                "usernamehw.errorle"
+            ]
+        }
+    },
+    "workspaceFolder": "/workspace",
+    "forwardPorts": [
+        8888
+    ]
 }
