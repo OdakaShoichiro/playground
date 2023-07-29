@@ -20,7 +20,7 @@
                 "files.insertFinalNewline": true,
                 "python.analysis.typeCheckingMode": "basic",
                 "r.libPaths": [
-                    "/workspace/renv/library"
+                    "/workspace/renv/"
                 ],
                 "workbench.startupEditor": "none"
             },
@@ -37,7 +37,6 @@
                 "naumovs.color-highlight",
                 "njpwerner.autodocs",
                 "redhat.vscode-yaml",
-                "reditorsupport.r",
                 "reditorsupport.r",
                 "streetsidesoftware.code-spell-checker",
                 "tamasfe.even-better-toml",
