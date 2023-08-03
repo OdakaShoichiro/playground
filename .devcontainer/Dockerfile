@@ -1,4 +1,4 @@
-FROM nvidia/cuda:12.2.0-devel-ubuntu22.04 
+FROM nvidia/cuda:12.2.0-devel-ubuntu22.04
 
 ARG UNAME=odakas
 ARG UID=1000
@@ -49,7 +49,7 @@ RUN apt-key adv --keyserver "keyserver.ubuntu.com" --recv-keys "E298A3A825C0D65D
     curl -fsSL "https://deb.nodesource.com/setup_${NODE_VERSION_MAJOR}.x" | bash -
 
 RUN apt update && \
-    apt upgrade -y ca-certificates && \
+    apt upgrade -y && \
     apt install -y --no-install-recommends \
     nodejs \
     r-base \
