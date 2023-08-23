@@ -44,8 +44,10 @@ RUN apt update && \
     wget \
     && rm -rf /var/lib/apt/lists/*
 
-RUN apt-key adv --keyserver "keyserver.ubuntu.com" --recv-keys "E298A3A825C0D65DFD57CBB651716619E084DAB9" && \
-    add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/' && \
+RUN gpg --homedir /tmp --no-default-keyring --keyring /usr/share/keyrings/R.gpg \
+    --keyserver "keyserver.ubuntu.com" --recv-keys "E298A3A825C0D65DFD57CBB651716619E084DAB9" && \
+    echo "deb [arch=amd64 signed-by=/usr/share/keyrings/R.gpg] https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/" | \
+    sudo tee /etc/apt/sources.list.d/R.list > /dev/null && \
     curl -fsSL "https://deb.nodesource.com/setup_${NODE_VERSION_MAJOR}.x" | bash -
 
 RUN apt update && \
@@ -54,6 +56,7 @@ RUN apt update && \
     nodejs \
     r-base \
     r-base-dev \
+    && apt autoremove -y \
     && rm -rf /var/lib/apt/lists/*
 
 ENV DEBIAN_FRONTEND="newt"
