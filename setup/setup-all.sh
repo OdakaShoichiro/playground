@@ -13,4 +13,4 @@ julia --project='/workspace' -e 'using Pkg; Pkg.instantiate(); Pkg.build("IJulia
 npm install
 
 # Jupyter
-bash /workspace/update-jupyter-template.sh
+bash /workspace/setup/update-jupyter-template.sh
