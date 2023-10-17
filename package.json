@@ -4,7 +4,7 @@
   "description": "Playground",
   "main": "index.js",
   "dependencies": {
-    "cspell": "^7.3.7"
+    "cspell": "^7.3.8"
   },
   "scripts": {
     "cspell": "cspell lint -r /workspace -c /workspace/cspell.yml *"
