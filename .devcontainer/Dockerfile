@@ -1,4 +1,4 @@
-FROM nvidia/cuda:12.2.0-devel-ubuntu22.04
+FROM nvidia/cuda:12.2.2-devel-ubuntu22.04
 
 ARG UNAME=odakas
 ARG UID=1000
@@ -7,8 +7,6 @@ ARG JULIA_VERSION="1.9.3"
 ARG JULIA_VERSION_MAJOR_MINOR="1.9"
 
 ARG NODE_VERSION_MAJOR="18"
-
-ARG JUPYTER_PORT=8888
 
 ENV PATH="/opt/julia-${JULIA_VERSION}/bin:${PATH}"
 
@@ -80,5 +78,4 @@ RUN wget -O julia.tar.gz "https://julialang-s3.julialang.org/bin/linux/x64/${JUL
     sudo tar xzf julia.tar.gz -C /usr/local --strip-components=1 && \
     rm julia.tar.gz
 
-EXPOSE ${JUPYTER_PORT}
 WORKDIR /workspace

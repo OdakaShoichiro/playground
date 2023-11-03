@@ -12,7 +12,9 @@ services:
             - driver: nvidia
               count: all
               capabilities: [ gpu ]
+    expose:
+      - "18888"
     ports:
-      - "8888:8888"
+      - "127.0.0.1:18888:18888"
     volumes:
       - ..:/workspace:cached
