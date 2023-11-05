@@ -6,8 +6,10 @@ words:
   - displayname
   - installspec
   - ipynb
+  - nortest
   - pkgs
   - pyproject
+  - quantmod
   - renv
   - rpart
   - rscript

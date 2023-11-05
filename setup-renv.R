@@ -1,12 +1,16 @@
 #!/usr/bin/Rscript
 
-renv::restore()
+# renv::restore()
 
 install.packages(
   c(
     "languageserver",
     "IRkernel",
     "car",
+    "FinTS",
+    "forecast",
+    "nortest",
+    "quantmod",
     "rpart",
     "tidyverse",
     "tseries",
