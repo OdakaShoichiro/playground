@@ -1,6 +1,6 @@
 #!/usr/bin/Rscript
 
-# renv::restore()
+renv::restore()
 
 install.packages(
   c(
@@ -12,6 +12,7 @@ install.packages(
     "nortest",
     "quantmod",
     "rpart",
+    "rvest",
     "tidyverse",
     "tseries",
     "urca"
