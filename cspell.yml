@@ -5,6 +5,7 @@ words:
   - devcontainer
   - displayname
   - httr
+  - igraph
   - installspec
   - ipynb
   - jsonlite

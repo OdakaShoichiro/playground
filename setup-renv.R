@@ -5,6 +5,7 @@ renv::restore()
 install.packages(
   c(
     "languageserver",
+    "igraph",
     "IRkernel",
     "car",
     "FinTS",
