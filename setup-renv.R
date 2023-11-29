@@ -9,15 +9,27 @@ install.packages(
     "car",
     "FinTS",
     "forecast",
+    "httr",
+    "jsonlite",
     "nortest",
     "quantmod",
     "rpart",
     "rvest",
+    "selectr",
     "tidyverse",
     "tseries",
-    "urca"
+    "urca",
+    "wordcloud2"
   ),
   repos = "http://cran.rstudio.com/"
+)
+
+install.packages(
+  c(
+    "RMeCab"
+  ),
+  repos = "http://rmecab.jp/R",
+  type = "source"
 )
 
 IRkernel::installspec(

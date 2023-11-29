@@ -4,8 +4,10 @@ words:
   - cuda
   - devcontainer
   - displayname
+  - httr
   - installspec
   - ipynb
+  - jsonlite
   - nortest
   - pkgs
   - pyproject
@@ -14,11 +16,13 @@ words:
   - rpart
   - rscript
   - rvest
+  - selectr
   - tidyverse
   - TOPIX
   - tseries
   - urca
   - venv
+  - wordcloud
 flagWords: []
 ignorePaths:
   - .devcontainer/*
