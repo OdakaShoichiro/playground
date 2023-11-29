@@ -1,9 +1,9 @@
-FROM nvidia/cuda:12.2.2-devel-ubuntu22.04
+FROM nvidia/cuda:12.3.0-devel-ubuntu22.04
 
 ARG UNAME=odakas
 ARG UID=1000
 
-ARG JULIA_VERSION="1.9.3"
+ARG JULIA_VERSION="1.9.4"
 ARG JULIA_VERSION_MAJOR_MINOR="1.9"
 
 ARG NODE_VERSION_MAJOR="18"
@@ -30,8 +30,11 @@ RUN apt update && \
     libblas-dev \
     libcurl4-openssl-dev \
     liblapack-dev \
+    libmecab-dev \
     libssl-dev \
     libxml2-dev \
+    mecab \
+    mecab-ipadic-utf8 \
     pandoc \
     software-properties-common \
     sudo \
