@@ -4,16 +4,20 @@ renv::restore()
 
 install.packages(
   c(
-    "languageserver",
-    "igraph",
-    "IRkernel",
     "car",
+    "doParallel",
     "FinTS",
+    "foreach",
     "forecast",
     "httr",
+    "igraph",
+    "IRkernel",
     "jsonlite",
+    "kernlab",
+    "languageserver",
     "nortest",
     "quantmod",
+    "randomForest",
     "rpart",
     "rvest",
     "selectr",

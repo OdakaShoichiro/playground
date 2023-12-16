@@ -9,6 +9,7 @@ words:
   - installspec
   - ipynb
   - jsonlite
+  - kernlab
   - nortest
   - pkgs
   - pyproject

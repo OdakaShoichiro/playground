@@ -27,6 +27,7 @@ RUN apt update && \
     fonts-ipafont \
     gfortran \
     git \
+    file \
     libblas-dev \
     libcurl4-openssl-dev \
     liblapack-dev \
@@ -38,6 +39,7 @@ RUN apt update && \
     pandoc \
     software-properties-common \
     sudo \
+    swig \
     texlive \
     texlive-lang-japanese \
     texlive-plain-generic \
@@ -59,6 +61,22 @@ RUN apt update && \
     r-base-dev \
     && apt autoremove -y \
     && rm -rf /var/lib/apt/lists/*
+
+# Install mecab-ipadic-neologd
+RUN git clone --depth 1 https://github.com/neologd/mecab-ipadic-neologd.git && \
+    mecab-ipadic-neologd/bin/install-mecab-ipadic-neologd -n -a -y
+
+# Install Cabocha
+# RUN url="https://drive.google.com/uc?export=download&id=0B4y35FiV1wh7SDd1Q1dUQkZQaUU" && \
+#     curl -sc /tmp/cookie ${url} >/dev/null && \
+#     code="$(awk '/_warning_/ {print $NF}' /tmp/cookie)" && \
+#     curl -sLb /tmp/cookie ${url}"&confirm=${code}" -o cabocha-0.69.tar.bz2 && \
+#     tar jxf cabocha-0.69.tar.bz2 && \
+#     cd cabocha-0.69 && \
+#     ./configure --with-mecab-config=`which mecab-config` --with-charset=utf8 && \
+#     echo include /usr/local/lib >> /etc/ld.so.conf && \
+#     make && \
+#     make install
 
 ENV DEBIAN_FRONTEND="newt"
 
