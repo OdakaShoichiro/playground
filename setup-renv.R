@@ -18,6 +18,8 @@ install.packages(
     "nortest",
     "quantmod",
     "randomForest",
+    "Rcpp",
+    "reticulate",
     "rpart",
     "rvest",
     "selectr",
