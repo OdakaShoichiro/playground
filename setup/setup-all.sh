@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 # Python
-rye sync
+rye sync --no-lock
 
 # R
 Rscript /workspace/setup-renv.R 
