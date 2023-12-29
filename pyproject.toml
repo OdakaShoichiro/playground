@@ -6,7 +6,7 @@ authors = [{ name = "Shoichieo Odaka", email = "odakas1994@gmail.com" }]
 readme = "README.md"
 requires-python = ">= 3.11"
 dependencies = [
-    "cabocha-python>=0.69.3",
+    # "cabocha-python>=0.69.3",
     "jupyter>=1.0.0",
     "matplotlib>=3.8.2",
     "mecab-python3>=1.0.8",
@@ -24,12 +24,19 @@ dependencies = [
     "unidic-lite>=1.0.8",
 ]
 
+[project.scripts]
+hello = "workspace:playground"
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.rye]
 managed = true
+dev-dependencies = []
 
 [tool.hatch.metadata]
 allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/workspace"]
