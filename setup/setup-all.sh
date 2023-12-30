@@ -1,5 +1,8 @@
 #!/usr/bin/bash
 
+# Cabocha
+sh ./setup-cabocha.sh
+
 # Python
 rye sync --no-lock
 
