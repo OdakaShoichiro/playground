@@ -1,10 +1,14 @@
 #!/usr/bin/bash
 
-# Cabocha
+# CaboCha
 sh ./setup-cabocha.sh
 
 # Python
 rye sync --no-lock
+
+# CaboCha-Python
+source /workspace/.venv/bin/activate
+python /home/odakas/cabocha-0.69/python/setup.py install
 
 # R
 Rscript /workspace/setup-renv.R 
