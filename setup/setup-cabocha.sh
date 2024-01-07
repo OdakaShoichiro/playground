@@ -1,6 +1,7 @@
 #!/usr/bin/bash
 
 # install CRF++
+cd
 wget "https://drive.google.com/uc?export=download&id=0B4y35FiV1wh7QVR6VXJ5dWExSTQ" -O CRF++-0.58.tar.gz
 
 tar zxvf CRF++-0.58.tar.gz
