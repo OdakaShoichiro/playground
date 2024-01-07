@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 # CaboCha
-sh ./setup-cabocha.sh
+sh /workspace/setup/setup-cabocha.sh
 
 # Python
 rye sync --no-lock
