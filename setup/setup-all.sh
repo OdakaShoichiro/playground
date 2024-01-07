@@ -9,6 +9,7 @@ rye sync --no-lock
 # CaboCha-Python
 source /workspace/.venv/bin/activate
 python /home/odakas/cabocha-0.69/python/setup.py install
+cd /workspace
 
 # R
 Rscript /workspace/setup-renv.R 
