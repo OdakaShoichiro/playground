@@ -18,6 +18,7 @@ words:
   - renv
   - rpart
   - rscript
+  - rstan
   - rvest
   - selectr
   - tidyverse
