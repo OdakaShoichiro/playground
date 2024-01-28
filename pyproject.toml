@@ -11,6 +11,7 @@ dependencies = [
     "mecab-python3>=1.0.8",
     "notebook>=7.0.6",
     "numpy>=1.26.2",
+    "openpyxl>=3.1.2",
     "pandas>=2.1.4",
     "pandas-stubs>=2.1.4.231227",
     "pyper>=1.1.2",
@@ -22,6 +23,7 @@ dependencies = [
     "tensorflow>=2.15.0.post1",
     "torch>=2.1.2",
     "unidic-lite>=1.0.8",
+    "xarray>=2024.1.1",
 ]
 
 [project.scripts]
