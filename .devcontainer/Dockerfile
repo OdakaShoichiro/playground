@@ -1,4 +1,4 @@
-FROM nvidia/cuda:12.3.0-devel-ubuntu22.04
+FROM nvidia/cuda:12.3.1-devel-ubuntu22.04
 
 ARG UNAME=odakas
 ARG UID=1000
@@ -45,6 +45,7 @@ RUN apt update && \
     texlive-lang-japanese \
     texlive-plain-generic \
     texlive-xetex \
+    vim \
     wget \
     && rm -rf /var/lib/apt/lists/*
 
