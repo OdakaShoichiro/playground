@@ -1,44 +1,30 @@
-[project]
+[tool.poetry]
 name = "playground"
 version = "0.1.0"
 description = "Playground"
-authors = [{ name = "Shoichieo Odaka", email = "odakas1994@gmail.com" }]
+authors = ["Shoichieo Odaka <odakas1994@gmail.com>"]
 readme = "README.md"
-requires-python = ">= 3.11"
-dependencies = [
-    "jupyter>=1.0.0",
-    "matplotlib>=3.8.3",
-    "mecab-python3>=1.0.8",
-    "notebook>=7.1.0",
-    "numpy>=1.26.4",
-    "openpyxl>=3.1.2",
-    "pandas>=2.1.4",
-    "pandas-stubs>=2.1.4.231227",
-    "pyper>=1.1.2",
-    "scikit-learn>=1.4.1.post1",
-    "scipy>=1.12.0",
-    "seaborn>=0.13.2",
-    "statsmodels>=0.14.1",
-    "sympy>=1.12",
-    "tensorflow>=2.15.0.post1",
-    "torch>=2.2.0",
-    "unidic-lite>=1.0.8",
-    "xarray>=2024.1.1",
-]
 
-[project.scripts]
-hello = "workspace:playground"
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.0.0"
+matplotlib = "^3.8.3"
+mecab-python3 = "^1.0.8"
+notebook = "^7.1.0"
+numpy = "^1.26.4"
+openpyxl = "^3.1.2"
+pandas = "2.1.4"
+pandas-stubs = "2.1.4.231227"
+pyper = "^1.1.2"
+scikit-learn = "^1.4.1.post1"
+scipy = "^1.12.0"
+seaborn = "^0.13.2"
+statsmodels = "^0.14.1"
+sympy = "^1.12"
+torch = "^2.2.0"
+unidic-lite = "^1.0.8"
+xarray = "^2024.1.1"
 
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
-[tool.rye]
-managed = true
-dev-dependencies = []
-
-[tool.hatch.metadata]
-allow-direct-references = true
-
-[tool.hatch.build.targets.wheel]
-packages = ["src/workspace"]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
