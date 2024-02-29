@@ -9,9 +9,10 @@
 
 -e file:.
 absl-py==2.1.0
+    # via keras
     # via tensorboard
     # via tensorflow
-anyio==4.2.0
+anyio==4.3.0
     # via httpx
     # via jupyter-server
 argon2-cffi==23.1.0
@@ -35,8 +36,6 @@ beautifulsoup4==4.12.3
     # via nbconvert
 bleach==6.1.0
     # via nbconvert
-cachetools==5.3.2
-    # via google-auth
 certifi==2024.2.2
     # via httpcore
     # via httpx
@@ -58,6 +57,8 @@ decorator==5.1.1
     # via ipython
 defusedxml==0.7.1
     # via nbconvert
+dm-tree==0.1.8
+    # via keras
 et-xmlfile==1.1.0
     # via openpyxl
 executing==2.0.1
@@ -66,7 +67,6 @@ fastjsonschema==2.19.1
     # via nbformat
 filelock==3.13.1
     # via torch
-    # via triton
 flatbuffers==23.5.26
     # via tensorflow
 fonttools==4.49.0
@@ -77,35 +77,31 @@ fsspec==2024.2.0
     # via torch
 gast==0.5.4
     # via tensorflow
-google-auth==2.28.0
-    # via google-auth-oauthlib
-    # via tensorboard
-google-auth-oauthlib==1.2.0
-    # via tensorboard
 google-pasta==0.2.0
     # via tensorflow
-grpcio==1.60.1
+grpcio==1.62.0
     # via tensorboard
     # via tensorflow
 h11==0.14.0
     # via httpcore
 h5py==3.10.0
+    # via keras
     # via tensorflow
-httpcore==1.0.3
+httpcore==1.0.4
     # via httpx
-httpx==0.26.0
+httpx==0.27.0
     # via jupyterlab
 idna==3.6
     # via anyio
     # via httpx
     # via jsonschema
     # via requests
-ipykernel==6.29.2
+ipykernel==6.29.3
     # via jupyter
     # via jupyter-console
     # via jupyterlab
     # via qtconsole
-ipython==8.21.0
+ipython==8.22.1
     # via ipykernel
     # via ipywidgets
     # via jupyter-console
@@ -123,7 +119,7 @@ jinja2==3.1.3
     # via torch
 joblib==1.3.2
     # via scikit-learn
-json5==0.9.14
+json5==0.9.17
     # via jupyterlab-server
 jsonpointer==2.4
     # via jsonschema
@@ -155,7 +151,7 @@ jupyter-core==5.7.1
     # via qtconsole
 jupyter-events==0.9.0
     # via jupyter-server
-jupyter-lsp==2.2.2
+jupyter-lsp==2.2.3
     # via jupyterlab
 jupyter-server==2.12.5
     # via jupyter-lsp
@@ -165,7 +161,7 @@ jupyter-server==2.12.5
     # via notebook-shim
 jupyter-server-terminals==0.5.2
     # via jupyter-server
-jupyterlab==4.1.1
+jupyterlab==4.1.2
     # via notebook
 jupyterlab-pygments==0.3.0
     # via nbconvert
@@ -174,7 +170,7 @@ jupyterlab-server==2.25.3
     # via notebook
 jupyterlab-widgets==3.0.10
     # via ipywidgets
-keras==2.15.0
+keras==3.0.5
     # via tensorflow
 kiwisolver==1.4.5
     # via matplotlib
@@ -182,6 +178,8 @@ libclang==16.0.6
     # via tensorflow
 markdown==3.5.2
     # via tensorboard
+markdown-it-py==3.0.0
+    # via rich
 markupsafe==2.1.5
     # via jinja2
     # via nbconvert
@@ -192,17 +190,22 @@ matplotlib==3.8.3
 matplotlib-inline==0.1.6
     # via ipykernel
     # via ipython
+mdurl==0.1.2
+    # via markdown-it-py
 mecab-python3==1.0.8
     # via playground
 mistune==3.0.2
     # via nbconvert
-ml-dtypes==0.2.0
+ml-dtypes==0.3.2
+    # via keras
     # via tensorflow
 mpmath==1.3.0
     # via sympy
+namex==0.0.7
+    # via keras
 nbclient==0.9.0
     # via nbconvert
-nbconvert==7.16.0
+nbconvert==7.16.1
     # via jupyter
     # via jupyter-server
 nbformat==5.9.2
@@ -222,6 +225,7 @@ notebook-shim==0.2.4
 numpy==1.26.4
     # via contourpy
     # via h5py
+    # via keras
     # via matplotlib
     # via ml-dtypes
     # via opt-einsum
@@ -229,6 +233,7 @@ numpy==1.26.4
     # via pandas-stubs
     # via patsy
     # via playground
+    # via pyarrow
     # via scikit-learn
     # via scipy
     # via seaborn
@@ -264,8 +269,6 @@ nvidia-nvjitlink-cu12==12.3.101
     # via nvidia-cusparse-cu12
 nvidia-nvtx-cu12==12.1.105
     # via torch
-oauthlib==3.2.2
-    # via requests-oauthlib
 openpyxl==3.1.2
     # via playground
 opt-einsum==3.3.0
@@ -318,11 +321,8 @@ ptyprocess==0.7.0
     # via terminado
 pure-eval==0.2.2
     # via stack-data
-pyasn1==0.5.1
-    # via pyasn1-modules
-    # via rsa
-pyasn1-modules==0.3.0
-    # via google-auth
+pyarrow==15.0.0
+    # via playground
 pycparser==2.21
     # via cffi
 pygments==2.17.2
@@ -330,6 +330,7 @@ pygments==2.17.2
     # via jupyter-console
     # via nbconvert
     # via qtconsole
+    # via rich
 pyparsing==3.1.1
     # via matplotlib
 pyper==1.1.2
@@ -361,21 +362,18 @@ referencing==0.33.0
     # via jupyter-events
 requests==2.31.0
     # via jupyterlab-server
-    # via requests-oauthlib
-    # via tensorboard
-requests-oauthlib==1.3.1
-    # via google-auth-oauthlib
+    # via tensorflow
 rfc3339-validator==0.1.4
     # via jsonschema
     # via jupyter-events
 rfc3986-validator==0.1.1
     # via jsonschema
     # via jupyter-events
+rich==13.7.1
+    # via keras
 rpds-py==0.18.0
     # via jsonschema
     # via referencing
-rsa==4.9
-    # via google-auth
 scikit-learn==1.4.1.post1
     # via playground
 scipy==1.12.0
@@ -396,7 +394,7 @@ six==1.16.0
     # via rfc3339-validator
     # via tensorboard
     # via tensorflow
-sniffio==1.3.0
+sniffio==1.3.1
     # via anyio
     # via httpx
 soupsieve==2.5
@@ -408,16 +406,12 @@ statsmodels==0.14.1
 sympy==1.12
     # via playground
     # via torch
-tensorboard==2.15.2
+tensorboard==2.16.2
     # via tensorflow
 tensorboard-data-server==0.7.2
     # via tensorboard
-tensorflow==2.15.0.post1
+tensorflow==2.16.0rc0
     # via playground
-tensorflow-estimator==2.15.0
-    # via tensorflow
-tensorflow-io-gcs-filesystem==0.36.0
-    # via tensorflow
 termcolor==2.4.0
     # via tensorflow
 terminado==0.18.0
@@ -452,13 +446,11 @@ traitlets==5.14.1
     # via nbconvert
     # via nbformat
     # via qtconsole
-triton==2.2.0
-    # via torch
 types-python-dateutil==2.8.19.20240106
     # via arrow
 types-pytz==2024.1.0.20240203
     # via pandas-stubs
-typing-extensions==4.9.0
+typing-extensions==4.10.0
     # via tensorflow
     # via torch
 tzdata==2024.1
@@ -467,7 +459,7 @@ unidic-lite==1.0.8
     # via playground
 uri-template==1.3.0
     # via jsonschema
-urllib3==2.2.0
+urllib3==2.2.1
     # via requests
 wcwidth==0.2.13
     # via prompt-toolkit
@@ -484,10 +476,10 @@ wheel==0.42.0
     # via astunparse
 widgetsnbextension==4.0.10
     # via ipywidgets
-wrapt==1.14.1
+wrapt==1.16.0
     # via tensorflow
 xarray==2024.2.0
     # via playground
-setuptools==69.1.0
+setuptools==69.1.1
     # via tensorboard
     # via tensorflow

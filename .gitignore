@@ -16,5 +16,6 @@ node_modules
 notebook
 .Trash*
 
-# archive
-*.tar*
+# CaboCha setup resources
+cabocha-*.tar.bz2
+CaboCha.py
