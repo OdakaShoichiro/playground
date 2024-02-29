@@ -213,7 +213,7 @@ nest-asyncio==1.6.0
     # via ipykernel
 networkx==3.2.1
     # via torch
-notebook==7.1.0
+notebook==7.1.1
     # via jupyter
     # via playground
 notebook-shim==0.2.4
@@ -289,7 +289,7 @@ pandas==2.2.0
     # via seaborn
     # via statsmodels
     # via xarray
-pandas-stubs==2.1.4.231227
+pandas-stubs==2.2.0.240218
     # via playground
 pandocfilters==1.5.1
     # via nbconvert
@@ -427,7 +427,7 @@ threadpoolctl==3.3.0
     # via scikit-learn
 tinycss2==1.2.1
     # via nbconvert
-torch==2.2.0
+torch==2.2.1
     # via playground
 tornado==6.4
     # via ipykernel
@@ -486,7 +486,7 @@ widgetsnbextension==4.0.10
     # via ipywidgets
 wrapt==1.14.1
     # via tensorflow
-xarray==2024.1.1
+xarray==2024.2.0
     # via playground
 setuptools==69.1.0
     # via tensorboard
