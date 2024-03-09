@@ -185,8 +185,11 @@ markupsafe==2.1.5
     # via nbconvert
     # via werkzeug
 matplotlib==3.8.3
+    # via matplotlib-fontja
     # via playground
     # via seaborn
+matplotlib-fontja==1.0.0
+    # via playground
 matplotlib-inline==0.1.6
     # via ipykernel
     # via ipython
@@ -321,7 +324,7 @@ ptyprocess==0.7.0
     # via terminado
 pure-eval==0.2.2
     # via stack-data
-pyarrow==15.0.0
+pyarrow==15.0.1
     # via playground
 pycparser==2.21
     # via cffi
@@ -410,7 +413,7 @@ tensorboard==2.16.2
     # via tensorflow
 tensorboard-data-server==0.7.2
     # via tensorboard
-tensorflow==2.16.0rc0
+tensorflow==2.16.1
     # via playground
 termcolor==2.4.0
     # via tensorflow

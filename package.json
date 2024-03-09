@@ -4,6 +4,7 @@
   "description": "Playground",
   "main": "index.js",
   "dependencies": {
+    "corepack": "^0.26.0",
     "cspell": "^8.4.1"
   },
   "scripts": {
