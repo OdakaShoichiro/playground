@@ -44,10 +44,10 @@ cffi==1.16.0
     # via argon2-cffi-bindings
 charset-normalizer==3.3.2
     # via requests
-comm==0.2.1
+comm==0.2.2
     # via ipykernel
     # via ipywidgets
-contourpy==1.2.0
+contourpy==1.2.1
     # via matplotlib
 cycler==0.12.1
     # via matplotlib
@@ -57,29 +57,27 @@ decorator==5.1.1
     # via ipython
 defusedxml==0.7.1
     # via nbconvert
-dm-tree==0.1.8
-    # via keras
 et-xmlfile==1.1.0
     # via openpyxl
 executing==2.0.1
     # via stack-data
 fastjsonschema==2.19.1
     # via nbformat
-filelock==3.13.1
+filelock==3.13.3
     # via torch
-flatbuffers==23.5.26
+flatbuffers==24.3.25
     # via tensorflow
-fonttools==4.49.0
+fonttools==4.51.0
     # via matplotlib
 fqdn==1.5.1
     # via jsonschema
-fsspec==2024.2.0
+fsspec==2024.3.1
     # via torch
 gast==0.5.4
     # via tensorflow
 google-pasta==0.2.0
     # via tensorflow
-grpcio==1.62.0
+grpcio==1.62.1
     # via tensorboard
     # via tensorflow
 h11==0.14.0
@@ -87,7 +85,7 @@ h11==0.14.0
 h5py==3.10.0
     # via keras
     # via tensorflow
-httpcore==1.0.4
+httpcore==1.0.5
     # via httpx
 httpx==0.27.0
     # via jupyterlab
@@ -96,12 +94,12 @@ idna==3.6
     # via httpx
     # via jsonschema
     # via requests
-ipykernel==6.29.3
+ipykernel==6.29.4
     # via jupyter
     # via jupyter-console
     # via jupyterlab
     # via qtconsole
-ipython==8.22.1
+ipython==8.23.0
     # via ipykernel
     # via ipywidgets
     # via jupyter-console
@@ -119,7 +117,7 @@ jinja2==3.1.3
     # via torch
 joblib==1.3.2
     # via scikit-learn
-json5==0.9.17
+json5==0.9.24
     # via jupyterlab-server
 jsonpointer==2.4
     # via jsonschema
@@ -131,7 +129,7 @@ jsonschema-specifications==2023.12.1
     # via jsonschema
 jupyter==1.0.0
     # via playground
-jupyter-client==8.6.0
+jupyter-client==8.6.1
     # via ipykernel
     # via jupyter-console
     # via jupyter-server
@@ -139,7 +137,7 @@ jupyter-client==8.6.0
     # via qtconsole
 jupyter-console==6.6.3
     # via jupyter
-jupyter-core==5.7.1
+jupyter-core==5.7.2
     # via ipykernel
     # via jupyter-client
     # via jupyter-console
@@ -149,36 +147,36 @@ jupyter-core==5.7.1
     # via nbconvert
     # via nbformat
     # via qtconsole
-jupyter-events==0.9.0
+jupyter-events==0.10.0
     # via jupyter-server
-jupyter-lsp==2.2.3
+jupyter-lsp==2.2.4
     # via jupyterlab
-jupyter-server==2.12.5
+jupyter-server==2.13.0
     # via jupyter-lsp
     # via jupyterlab
     # via jupyterlab-server
     # via notebook
     # via notebook-shim
-jupyter-server-terminals==0.5.2
+jupyter-server-terminals==0.5.3
     # via jupyter-server
-jupyterlab==4.1.2
+jupyterlab==4.1.5
     # via notebook
 jupyterlab-pygments==0.3.0
     # via nbconvert
-jupyterlab-server==2.25.3
+jupyterlab-server==2.25.4
     # via jupyterlab
     # via notebook
 jupyterlab-widgets==3.0.10
     # via ipywidgets
-keras==3.0.5
+keras==3.1.1
     # via tensorflow
 kiwisolver==1.4.5
     # via matplotlib
-libclang==16.0.6
+libclang==18.1.1
     # via tensorflow
 lightgbm==4.3.0
     # via playground
-markdown==3.5.2
+markdown==3.6
     # via tensorboard
 markdown-it-py==3.0.0
     # via rich
@@ -208,18 +206,18 @@ mpmath==1.3.0
     # via sympy
 namex==0.0.7
     # via keras
-nbclient==0.9.0
+nbclient==0.10.0
     # via nbconvert
-nbconvert==7.16.1
+nbconvert==7.16.3
     # via jupyter
     # via jupyter-server
-nbformat==5.9.2
+nbformat==5.10.4
     # via jupyter-server
     # via nbclient
     # via nbconvert
 nest-asyncio==1.6.0
     # via ipykernel
-networkx==3.2.1
+networkx==3.3
     # via torch
 notebook==7.1.2
     # via jupyter
@@ -270,7 +268,7 @@ nvidia-cusparse-cu12==12.1.0.106
     # via torch
 nvidia-nccl-cu12==2.19.3
     # via torch
-nvidia-nvjitlink-cu12==12.3.101
+nvidia-nvjitlink-cu12==12.4.127
     # via nvidia-cusolver-cu12
     # via nvidia-cusparse-cu12
 nvidia-nvtx-cu12==12.1.105
@@ -279,9 +277,11 @@ openpyxl==3.1.2
     # via playground
 opt-einsum==3.3.0
     # via tensorflow
+optree==0.11.0
+    # via keras
 overrides==7.7.0
     # via jupyter-server
-packaging==23.2
+packaging==24.0
     # via ipykernel
     # via jupyter-server
     # via jupyterlab
@@ -302,13 +302,13 @@ pandas-stubs==2.2.1.240316
     # via playground
 pandocfilters==1.5.1
     # via nbconvert
-parso==0.8.3
+parso==0.8.4
     # via jedi
 patsy==0.5.6
     # via statsmodels
 pexpect==4.9.0
     # via ipython
-pillow==10.2.0
+pillow==10.3.0
     # via matplotlib
 platformdirs==4.2.0
     # via jupyter-core
@@ -329,7 +329,7 @@ pure-eval==0.2.2
     # via stack-data
 pyarrow==15.0.2
     # via playground
-pycparser==2.21
+pycparser==2.22
     # via cffi
 pygments==2.17.2
     # via ipython
@@ -337,11 +337,11 @@ pygments==2.17.2
     # via nbconvert
     # via qtconsole
     # via rich
-pyparsing==3.1.1
+pyparsing==3.1.2
     # via matplotlib
 pyper==1.1.2
     # via playground
-python-dateutil==2.8.2
+python-dateutil==2.9.0.post0
     # via arrow
     # via jupyter-client
     # via matplotlib
@@ -362,7 +362,7 @@ qtconsole==5.5.1
     # via jupyter
 qtpy==2.4.1
     # via qtconsole
-referencing==0.33.0
+referencing==0.34.0
     # via jsonschema
     # via jsonschema-specifications
     # via jupyter-events
@@ -382,7 +382,7 @@ rpds-py==0.18.0
     # via referencing
 scikit-learn==1.4.1.post1
     # via playground
-scipy==1.12.0
+scipy==1.13.0
     # via lightgbm
     # via playground
     # via scikit-learn
@@ -421,10 +421,10 @@ tensorflow==2.16.1
     # via playground
 termcolor==2.4.0
     # via tensorflow
-terminado==0.18.0
+terminado==0.18.1
     # via jupyter-server
     # via jupyter-server-terminals
-threadpoolctl==3.3.0
+threadpoolctl==3.4.0
     # via scikit-learn
 tinycss2==1.2.1
     # via nbconvert
@@ -437,7 +437,7 @@ tornado==6.4
     # via jupyterlab
     # via notebook
     # via terminado
-traitlets==5.14.1
+traitlets==5.14.2
     # via comm
     # via ipykernel
     # via ipython
@@ -453,11 +453,12 @@ traitlets==5.14.1
     # via nbconvert
     # via nbformat
     # via qtconsole
-types-python-dateutil==2.8.19.20240106
+types-python-dateutil==2.9.0.20240316
     # via arrow
 types-pytz==2024.1.0.20240203
     # via pandas-stubs
-typing-extensions==4.10.0
+typing-extensions==4.11.0
+    # via optree
     # via tensorflow
     # via torch
 tzdata==2024.1
@@ -477,9 +478,9 @@ webencodings==0.5.1
     # via tinycss2
 websocket-client==1.7.0
     # via jupyter-server
-werkzeug==3.0.1
+werkzeug==3.0.2
     # via tensorboard
-wheel==0.42.0
+wheel==0.43.0
     # via astunparse
 widgetsnbextension==4.0.10
     # via ipywidgets
@@ -487,6 +488,6 @@ wrapt==1.16.0
     # via tensorflow
 xarray==2024.3.0
     # via playground
-setuptools==69.1.1
+setuptools==69.2.0
     # via tensorboard
     # via tensorflow
