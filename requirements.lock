@@ -186,7 +186,7 @@ markupsafe==2.1.5
     # via jinja2
     # via nbconvert
     # via werkzeug
-matplotlib==3.8.3
+matplotlib==3.8.4
     # via matplotlib-fontja
     # via playground
     # via seaborn
@@ -327,7 +327,7 @@ ptyprocess==0.7.0
     # via terminado
 pure-eval==0.2.2
     # via stack-data
-pyarrow==15.0.1
+pyarrow==15.0.2
     # via playground
 pycparser==2.21
     # via cffi
@@ -428,7 +428,7 @@ threadpoolctl==3.3.0
     # via scikit-learn
 tinycss2==1.2.1
     # via nbconvert
-torch==2.2.1
+torch==2.2.2
     # via playground
 tornado==6.4
     # via ipykernel
@@ -485,7 +485,7 @@ widgetsnbextension==4.0.10
     # via ipywidgets
 wrapt==1.16.0
     # via tensorflow
-xarray==2024.2.0
+xarray==2024.3.0
     # via playground
 setuptools==69.1.1
     # via tensorboard
