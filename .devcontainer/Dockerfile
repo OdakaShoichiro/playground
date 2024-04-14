@@ -64,6 +64,14 @@ RUN apt update && \
     && apt autoremove -y \
     && rm -rf /var/lib/apt/lists/*
 
+# Add fonts
+RUN wget -O MyricaM.zip "https://github.com/tomokuni/Myrica/raw/master/product/MyricaM.zip" && \
+    unzip MyricaM.zip && \
+    cp MyricaM.TTC /usr/share/fonts/truetype && \
+    mkdir mkdir /usr/share/fonts/truetype/myrica && \
+    cp MyricaM.TTC /usr/share/fonts/truetype/myrica && \
+    fc-cache -fv
+
 # Install mecab-ipadic-neologd
 RUN git clone --depth 1 https://github.com/neologd/mecab-ipadic-neologd.git && \
     mecab-ipadic-neologd/bin/install-mecab-ipadic-neologd -n -a -y

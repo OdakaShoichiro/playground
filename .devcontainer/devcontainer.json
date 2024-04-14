@@ -8,6 +8,7 @@
                 "breadcrumbs.enabled": true,
                 "cSpell.autoFormatConfigFile": true,
                 "editor.bracketPairColorization.enabled": true,
+                "editor.fontFamily": "\"Myrica M\"",
                 "editor.formatOnSave": true,
                 "editor.guides.bracketPairs": true,
                 "editor.renderControlCharacters": true,

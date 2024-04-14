@@ -15,6 +15,7 @@ node_modules
 # notebooks
 notebook
 .Trash*
+user-settings
 
 # CaboCha setup resources
 cabocha-*.tar.bz2

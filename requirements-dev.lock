@@ -38,11 +38,14 @@ babel==2.14.0
     # via jupyterlab-server
 beautifulsoup4==4.12.3
     # via nbconvert
+black==24.4.0
+    # via playground
 bleach==6.1.0
     # via nbconvert
 cattrs==23.2.3
     # via lsprotocol
     # via pygls
+    # via python-lsp-ruff
 certifi==2024.2.2
     # via httpcore
     # via httpx
@@ -51,6 +54,8 @@ cffi==1.16.0
     # via argon2-cffi-bindings
 charset-normalizer==3.3.2
     # via requests
+click==8.1.7
+    # via black
 cloudpickle==3.0.0
     # via functime
 comm==0.2.2
@@ -66,6 +71,8 @@ decorator==5.1.1
     # via ipython
 defusedxml==0.7.1
     # via nbconvert
+docstring-to-markdown==0.15
+    # via python-lsp-server
 et-xmlfile==1.1.0
     # via openpyxl
 executing==2.0.1
@@ -131,6 +138,7 @@ isoduration==20.11.0
     # via jsonschema
 jedi==0.19.1
     # via ipython
+    # via python-lsp-server
 jinja2==3.1.3
     # via jupyter-server
     # via jupyterlab
@@ -177,6 +185,7 @@ jupyter-lsp==2.2.4
 jupyter-server==2.13.0
     # via jupyter-lsp
     # via jupyterlab
+    # via jupyterlab-code-formatter
     # via jupyterlab-server
     # via notebook
     # via notebook-shim
@@ -185,7 +194,12 @@ jupyter-server-terminals==0.5.3
 jupyterlab==4.1.5
     # via jupyterlab-lsp
     # via notebook
+jupyterlab-code-formatter==2.2.1
+    # via playground
+jupyterlab-language-pack-ja-jp==4.1.post2
+    # via playground
 jupyterlab-lsp==5.1.0
+    # via playground
 jupyterlab-pygments==0.3.0
     # via nbconvert
 jupyterlab-server==2.25.4
@@ -203,6 +217,7 @@ lightgbm==4.3.0
     # via playground
 lsprotocol==2023.0.1
     # via pygls
+    # via python-lsp-ruff
     # via ruff-lsp
 markdown==3.6
     # via tensorboard
@@ -232,6 +247,8 @@ ml-dtypes==0.3.2
     # via tensorflow
 mpmath==1.3.0
     # via sympy
+mypy-extensions==1.0.0
+    # via black
 namex==0.0.7
     # via keras
 nbclient==0.10.0
@@ -311,9 +328,11 @@ optree==0.11.0
 overrides==7.7.0
     # via jupyter-server
 packaging==24.0
+    # via black
     # via ipykernel
     # via jupyter-server
     # via jupyterlab
+    # via jupyterlab-code-formatter
     # via jupyterlab-server
     # via matplotlib
     # via nbconvert
@@ -333,6 +352,8 @@ pandocfilters==1.5.1
     # via nbconvert
 parso==0.8.4
     # via jedi
+pathspec==0.12.1
+    # via black
 patito==0.6.1
     # via playground
 patsy==0.5.6
@@ -342,9 +363,12 @@ pexpect==4.9.0
 pillow==10.3.0
     # via matplotlib
 platformdirs==4.2.0
+    # via black
     # via jupyter-core
 plotly==5.20.0
     # via playground
+pluggy==1.4.0
+    # via python-lsp-server
 polarify==0.1.5
     # via playground
 polars==0.20.20
@@ -403,6 +427,13 @@ python-dateutil==2.9.0.post0
     # via pandas
 python-json-logger==2.0.7
     # via jupyter-events
+python-lsp-jsonrpc==1.1.2
+    # via python-lsp-server
+python-lsp-ruff==2.2.0
+    # via playground
+python-lsp-server==1.11.0
+    # via playground
+    # via python-lsp-ruff
 pytz==2024.1
     # via pandas
 pyyaml==6.0.1
@@ -436,8 +467,11 @@ rpds-py==0.18.0
     # via jsonschema
     # via referencing
 ruff==0.3.5
+    # via playground
+    # via python-lsp-ruff
     # via ruff-lsp
 ruff-lsp==0.0.53
+    # via playground
 scikit-learn==1.4.2
     # via functime
     # via playground
@@ -539,6 +573,9 @@ typing-extensions==4.11.0
     # via torch
 tzdata==2024.1
     # via pandas
+ujson==5.9.0
+    # via python-lsp-jsonrpc
+    # via python-lsp-server
 unidic-lite==1.0.8
     # via playground
 uri-template==1.3.0
