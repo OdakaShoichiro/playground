@@ -4,6 +4,7 @@
 sh /workspace/setup/setup-cabocha.sh
 
 # Python
+rye config --set-bool behavior.use-uv=true
 rye sync --no-lock
 
 # CaboCha-Python

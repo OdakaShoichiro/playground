@@ -380,7 +380,7 @@ rich==13.7.1
 rpds-py==0.18.0
     # via jsonschema
     # via referencing
-scikit-learn==1.4.1.post1
+scikit-learn==1.4.2
     # via playground
 scipy==1.13.0
     # via lightgbm
@@ -391,6 +391,9 @@ seaborn==0.13.2
     # via playground
 send2trash==1.8.2
     # via jupyter-server
+setuptools==69.2.0
+    # via tensorboard
+    # via tensorflow
 six==1.16.0
     # via asttokens
     # via astunparse
@@ -488,6 +491,3 @@ wrapt==1.16.0
     # via tensorflow
 xarray==2024.3.0
     # via playground
-setuptools==69.2.0
-    # via tensorboard
-    # via tensorflow
