@@ -20,6 +20,7 @@ install.packages(
     "quantmod",
     "randomForest",
     "Rcpp",
+    "remotes",
     "reticulate",
     "rpart",
     "rstan",
