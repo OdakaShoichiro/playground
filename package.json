@@ -4,7 +4,9 @@
   "description": "Playground",
   "main": "index.js",
   "dependencies": {
-    "cspell": "^8.7.0"
+    "@marp-team/marp-cli": "^3.4.0",
+    "cspell": "^8.7.0",
+    "typescript": "^5.4.5"
   },
   "scripts": {
     "cspell": "cspell lint -r /workspace -c /workspace/cspell.yml *"

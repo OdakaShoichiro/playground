@@ -9,6 +9,7 @@ install.packages(
     "FinTS",
     "foreach",
     "forecast",
+    "highfrequency",
     "httr",
     "igraph",
     "IRkernel",
