@@ -52,7 +52,7 @@ babel==2.14.0
     # via jupyterlab-server
 beautifulsoup4==4.12.3
     # via nbconvert
-black==24.4.1
+black==24.4.2
     # via playground
 bleach==6.1.0
     # via nbconvert
@@ -161,7 +161,7 @@ ipykernel==6.29.4
     # via jupyter-console
     # via jupyterlab
     # via qtconsole
-ipython==8.23.0
+ipython==8.24.0
     # via ipykernel
     # via ipywidgets
     # via jupyter-console
@@ -231,7 +231,7 @@ jupyter-server==2.14.0
     # via notebook-shim
 jupyter-server-terminals==0.5.3
     # via jupyter-server
-jupyterlab==4.1.6
+jupyterlab==4.1.8
     # via jupyterlab-lsp
     # via notebook
 jupyterlab-code-formatter==2.2.1
@@ -247,7 +247,7 @@ jupyterlab-server==2.27.1
     # via notebook
 jupyterlab-widgets==3.0.10
     # via ipywidgets
-keras==3.3.2
+keras==3.3.3
     # via tensorflow
 kiwisolver==1.4.5
     # via matplotlib
@@ -517,7 +517,7 @@ python-json-logger==2.0.7
     # via jupyter-events
 python-lsp-jsonrpc==1.1.2
     # via python-lsp-server
-python-lsp-ruff==2.2.0
+python-lsp-ruff==2.2.1
     # via playground
 python-lsp-server==1.11.0
     # via playground
@@ -555,7 +555,7 @@ rich==13.7.1
 rpds-py==0.18.0
     # via jsonschema
     # via referencing
-ruff==0.4.1
+ruff==0.4.2
     # via playground
     # via python-lsp-ruff
     # via ruff-lsp
