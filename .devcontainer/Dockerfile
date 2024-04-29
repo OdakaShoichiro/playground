@@ -6,7 +6,7 @@ ARG UID=1000
 ARG JULIA_VERSION="1.10.2"
 ARG JULIA_VERSION_MAJOR_MINOR="1.10"
 
-ARG NODE_VERSION_MAJOR="20"
+ARG NODE_VERSION_MAJOR="22"
 
 ENV PATH="/opt/julia-${JULIA_VERSION}/bin:${PATH}"
 
@@ -49,6 +49,7 @@ RUN apt update && \
     wget \
     && rm -rf /var/lib/apt/lists/*
 
+# Add R & Node.js repositories
 RUN gpg --homedir /tmp --no-default-keyring --keyring /usr/share/keyrings/R.gpg \
     --keyserver "keyserver.ubuntu.com" --recv-keys "E298A3A825C0D65DFD57CBB651716619E084DAB9" && \
     echo "deb [arch=amd64 signed-by=/usr/share/keyrings/R.gpg] https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/" | \
