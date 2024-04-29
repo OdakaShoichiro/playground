@@ -449,7 +449,7 @@ pluggy==1.5.0
     # via python-lsp-server
 polarify==0.1.5
     # via playground
-polars==0.20.22
+polars==0.20.23
     # via functime
     # via ipyvuetable
     # via patito
@@ -458,7 +458,7 @@ polars==0.20.22
     # via polars-ds
     # via polugins
     # via shirokumas
-polars-ds==0.4.2
+polars-ds==0.4.3
     # via playground
 polugins==0.5.1
     # via playground
