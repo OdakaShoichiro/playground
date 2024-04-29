@@ -4,6 +4,7 @@ words:
   - cuda
   - devcontainer
   - displayname
+  - highfrequency
   - httr
   - igraph
   - installspec
@@ -42,3 +43,5 @@ ignorePaths:
   - renv.lock
   - requirements-dev.lock
   - requirements.lock
+  - setup/*
+  - setup-renv.R

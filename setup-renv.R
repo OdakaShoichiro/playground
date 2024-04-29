@@ -6,6 +6,7 @@ install.packages(
   c(
     "car",
     "doParallel",
+    "dplyr"
     "FinTS",
     "foreach",
     "forecast",
@@ -27,6 +28,7 @@ install.packages(
     "rstan",
     "rvest",
     "selectr",
+    "tidytext",
     "tidyverse",
     "tseries",
     "urca",
