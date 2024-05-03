@@ -30,4 +30,3 @@ npm install
 
 # Jupyter
 bash /workspace/setup/update-jupyter-template.sh
-ln -s ~/.jupyter/lab/user-settings /workspace/user-settings
