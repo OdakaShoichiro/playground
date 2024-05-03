@@ -1,5 +1,9 @@
 #!/usr/bin/bash
 
+# mise
+mise trust
+mise install -y
+
 # CaboCha
 sh /workspace/setup/setup-cabocha.sh
 
@@ -15,6 +19,7 @@ python setup.py install
 cd /workspace
 
 # R
+R -e "install.packages('renv', repos = 'http://cran.rstudio.com/')"
 Rscript /workspace/setup-renv.R 
 
 # Julia

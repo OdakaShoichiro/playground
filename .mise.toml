@@ -1,0 +1,22 @@
+[env]
+NODE_ENV = 'development'
+_.python.venv = "/workspace/.venv"
+
+[tools]
+julia = '1.10.2'
+node = '22.0.0'
+pandoc = '2.9.2.1'
+python = '3.12.3'
+r = '4.4.0'
+rust = '1.77.2'
+rye = '0.33.0'
+
+[plugins]
+julia = 'https://github.com/rkyleg/asdf-julia.git'
+pandoc = 'https://github.com/Fbrisset/asdf-pandoc.git'
+r = 'https://github.com/asdf-community/asdf-r.git'
+rye = 'https://github.com/Azuki-bar/asdf-rye'
+
+[settings]
+verbose = false
+yes = false

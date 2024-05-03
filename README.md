@@ -21,6 +21,7 @@ https://docs.nvidia.com/cuda/wsl-user-guide/index.html
 各言語について、初期セットアップを行ってください。
 
 [setup-all.sh](setup/setup-all.sh) あるいはその中の各言語のセットアップコマンド・スクリプトを実行することでセットアップできます。
+各言語のランタイムは[mise](https://mise.jdx.dev/)で管理されています。
 
 なお、CaboChaについては以下の注意点があります。
 
