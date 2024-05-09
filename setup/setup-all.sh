@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 # mise
-mise trust
+mise trust -y
 mise install -y
 
 # CaboCha

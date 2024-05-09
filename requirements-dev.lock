@@ -144,7 +144,7 @@ h5py==3.11.0
     # via h5netcdf
     # via keras
     # via tensorflow
-holidays==0.47
+holidays==0.48
     # via functime
 httpcore==1.0.5
     # via httpx
@@ -454,7 +454,7 @@ pluggy==1.5.0
     # via python-lsp-server
 polarify==0.1.5
     # via playground
-polars==0.20.23
+polars==0.20.25
     # via functime
     # via ipyvuetable
     # via patito
@@ -559,7 +559,7 @@ rfc3986-validator==0.1.1
 rich==13.7.1
     # via keras
     # via pymc
-rpds-py==0.18.0
+rpds-py==0.18.1
     # via jsonschema
     # via referencing
 ruff==0.4.3
@@ -621,7 +621,7 @@ statsmodels==0.14.2
 sympy==1.12
     # via playground
     # via torch
-tenacity==8.2.3
+tenacity==8.3.0
     # via plotly
 tensorboard==2.16.2
     # via tensorflow
