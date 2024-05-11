@@ -562,7 +562,7 @@ rich==13.7.1
 rpds-py==0.18.1
     # via jsonschema
     # via referencing
-ruff==0.4.3
+ruff==0.4.4
     # via playground
     # via python-lsp-ruff
     # via ruff-lsp
