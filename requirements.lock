@@ -463,7 +463,7 @@ polars==0.20.25
     # via polars-ds
     # via polugins
     # via shirokumas
-polars-ds==0.4.3
+polars-ds==0.4.4
     # via playground
 polugins==0.5.1
     # via playground
@@ -716,7 +716,7 @@ widgetsnbextension==4.0.10
     # via ipywidgets
 wrapt==1.16.0
     # via tensorflow
-xarray==2024.3.0
+xarray==2024.5.0
     # via arviz
     # via playground
     # via xarray-einstats

@@ -20,3 +20,6 @@ user-settings
 # CaboCha setup resources
 cabocha-*.tar.bz2
 CaboCha.py
+
+# --USERDATA-- #
+sandbox
