@@ -50,6 +50,7 @@ dependencies = [
     "torch>=2.3.0",
     "unidic-lite>=1.0.8",
     "xarray>=2024.5.0",
+    "pmdarima>=2.0.4",
 ]
 
 [project.scripts]
