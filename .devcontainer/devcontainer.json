@@ -27,10 +27,8 @@
             },
             "extensions": [
                 "eamodio.gitlens",
-                "editorconfig.editor",
                 "github.copilot",
                 "gruntfuggly.todo-tree",
-                "Ikuyadeu.r",
                 "janisdd.vscode-edit-csv",
                 "jock.svg",
                 "kisstkondoros.vscode-gutter-preview",
@@ -45,8 +43,7 @@
                 "redhat.vscode-yaml",
                 "reditorsupport.r",
                 "streetsidesoftware.code-spell-checker",
-                "tamasfe.even-better-toml",
-                "usernamehw.errorle"
+                "tamasfe.even-better-toml"
             ]
         }
     },
