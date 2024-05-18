@@ -58,8 +58,7 @@ RUN install -dm 755 /etc/apt/keyrings && \
     wget -qO - https://mise.jdx.dev/gpg-key.pub | gpg --dearmor | sudo tee /etc/apt/keyrings/mise-archive-keyring.gpg 1> /dev/null && \
     echo "deb [signed-by=/etc/apt/keyrings/mise-archive-keyring.gpg arch=amd64] https://mise.jdx.dev/deb stable main" | sudo tee /etc/apt/sources.list.d/mise.list && \
     apt update && \
-    sudo apt install -y mise && \
-    echo 'eval "$(/usr/bin/mise activate bash)"' >> ~/.bashrc
+    sudo apt install -y mise
 
 # Add fonts
 RUN wget -O MyricaM.zip "https://github.com/tomokuni/Myrica/raw/master/product/MyricaM.zip" && \
@@ -80,4 +79,8 @@ RUN useradd -m -s /bin/bash -G sudo "${UNAME}" --uid "${UID}" && \
 ENV DEBIAN_FRONTEND="newt"
 
 USER odakas
+
+# Setup user settings
+RUN echo 'eval "$(/usr/bin/mise activate bash)"' >> ~/.bashrc
+
 WORKDIR /workspace
