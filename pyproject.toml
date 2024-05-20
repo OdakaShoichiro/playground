@@ -27,6 +27,7 @@ dependencies = [
     "pandas>=2.2.2",
     "patito>=0.6.1",
     "plotly>=5.22.0",
+    "pmdarima>=2.0.4",
     "polarify>=0.1.5",
     "polars-ds>=0.4.4",
     "polars>=0.20.26",
@@ -49,7 +50,7 @@ dependencies = [
     "torch>=2.3.0",
     "unidic-lite>=1.0.8",
     "xarray>=2024.5.0",
-    "pmdarima>=2.0.4",
+    "yfinance>=0.2.40",
 ]
 
 [project.scripts]
