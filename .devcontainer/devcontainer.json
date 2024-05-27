@@ -26,6 +26,7 @@
                 "workbench.startupEditor": "none"
             },
             "extensions": [
+                "charliermarsh.ruff",
                 "eamodio.gitlens",
                 "github.copilot",
                 "gruntfuggly.todo-tree",
