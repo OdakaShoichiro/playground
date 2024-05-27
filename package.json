@@ -4,12 +4,12 @@
   "description": "Playground",
   "main": "index.js",
   "dependencies": {
-    "@cspell/dict-data-science": "^2.0.0",
-    "@cspell/dict-markdown": "^2.0.1",
+    "@cspell/dict-data-science": "^2.0.1",
+    "@cspell/dict-markdown": "^2.0.2",
     "@cspell/dict-scientific-terms-us": "^3.0.1",
     "@cspell/dict-shell": "^1.0.6",
     "@marp-team/marp-cli": "^3.4.0",
-    "cspell": "^8.8.1",
+    "cspell": "^8.8.3",
     "typescript": "^5.4.5"
   },
   "scripts": {

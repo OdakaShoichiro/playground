@@ -10,6 +10,7 @@ install.packages(
     "FinTS",
     "foreach",
     "forecast",
+    "gam",
     "highfrequency",
     "httr",
     "igraph",
