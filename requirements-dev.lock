@@ -121,7 +121,7 @@ flaml==2.1.2
     # via functime
 flatbuffers==24.3.25
     # via tensorflow
-fonttools==4.52.1
+fonttools==4.53.0
     # via matplotlib
 fqdn==1.5.1
     # via jsonschema
@@ -173,7 +173,7 @@ ipykernel==6.29.4
     # via jupyter-console
     # via jupyterlab
     # via qtconsole
-ipython==8.24.0
+ipython==8.25.0
     # via ipykernel
     # via ipywidgets
     # via jupyter-console
@@ -183,7 +183,7 @@ ipyvuetable==0.3.0
     # via playground
 ipyvuetify==1.9.4
     # via ipyvuetable
-ipywidgets==8.1.2
+ipywidgets==8.1.3
     # via ipyvue
     # via jupyter
 isoduration==20.11.0
@@ -235,7 +235,7 @@ jupyter-events==0.10.0
 jupyter-lsp==2.2.5
     # via jupyterlab
     # via jupyterlab-lsp
-jupyter-server==2.14.0
+jupyter-server==2.14.1
     # via jupyter-lsp
     # via jupyterlab
     # via jupyterlab-code-formatter
@@ -258,7 +258,7 @@ jupyterlab-pygments==0.3.0
 jupyterlab-server==2.27.2
     # via jupyterlab
     # via notebook
-jupyterlab-widgets==3.0.10
+jupyterlab-widgets==3.0.11
     # via ipywidgets
 keras==3.3.3
     # via tensorflow
@@ -406,7 +406,7 @@ nvidia-nvjitlink-cu12==12.5.40
     # via nvidia-cusparse-cu12
 nvidia-nvtx-cu12==12.1.105
     # via torch
-openpyxl==3.1.2
+openpyxl==3.1.3
     # via playground
 opt-einsum==3.3.0
     # via tensorflow
@@ -474,9 +474,9 @@ pluggy==1.5.0
     # via python-lsp-server
 pmdarima==2.0.4
     # via playground
-polarify==0.1.5
+polarify==0.2.0
     # via playground
-polars==0.20.30
+polars==0.20.31
     # via functime
     # via ipyvuetable
     # via patito
@@ -491,7 +491,7 @@ polugins==0.5.1
     # via playground
 prometheus-client==0.20.0
     # via jupyter-server
-prompt-toolkit==3.0.43
+prompt-toolkit==3.0.45
     # via ipython
     # via jupyter-console
 protobuf==4.25.3
@@ -508,9 +508,9 @@ pyarrow==16.1.0
     # via playground
 pycparser==2.22
     # via cffi
-pydantic==2.7.1
+pydantic==2.7.2
     # via patito
-pydantic-core==2.18.2
+pydantic-core==2.18.3
     # via pydantic
 pygls==1.3.1
     # via ruff-lsp
@@ -522,7 +522,7 @@ pygments==2.18.0
     # via rich
 pylev==1.4.0
     # via clikit
-pymc==5.15.0
+pymc==5.15.1
     # via playground
 pyparsing==3.1.2
     # via matplotlib
@@ -532,7 +532,7 @@ pysimdjson==6.0.2
     # via pystan
 pystan==3.9.1
     # via playground
-pytensor==2.20.0
+pytensor==2.22.1
     # via pymc
 python-dateutil==2.9.0.post0
     # via arrow
@@ -569,7 +569,7 @@ referencing==0.35.1
     # via jsonschema
     # via jsonschema-specifications
     # via jupyter-events
-requests==2.32.2
+requests==2.32.3
     # via huggingface-hub
     # via jupyterlab-server
     # via tensorflow
@@ -586,7 +586,7 @@ rich==13.7.1
 rpds-py==0.18.1
     # via jsonschema
     # via referencing
-ruff==0.4.5
+ruff==0.4.7
     # via playground
     # via python-lsp-ruff
     # via ruff-lsp
@@ -647,7 +647,7 @@ statsmodels==0.14.2
     # via arch
     # via playground
     # via pmdarima
-sympy==1.12
+sympy==1.12.1
     # via playground
     # via torch
 tenacity==8.3.0
@@ -664,6 +664,7 @@ terminado==0.18.1
     # via jupyter-server
     # via jupyter-server-terminals
 threadpoolctl==3.5.0
+    # via pymc
     # via scikit-learn
 tinycss2==1.3.0
     # via nbconvert
@@ -743,7 +744,7 @@ werkzeug==3.0.3
     # via tensorboard
 wheel==0.43.0
     # via astunparse
-widgetsnbextension==4.0.10
+widgetsnbextension==4.0.11
     # via ipywidgets
 wrapt==1.16.0
     # via tensorflow
