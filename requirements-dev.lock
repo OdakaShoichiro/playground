@@ -26,6 +26,7 @@ anyio==4.4.0
 appdirs==1.4.4
     # via httpstan
 arch==7.0.0
+    # via mvgarch
     # via playground
 argon2-cffi==23.1.0
     # via jupyter-server
@@ -286,12 +287,13 @@ markupsafe==2.1.5
     # via jinja2
     # via nbconvert
     # via werkzeug
-marshmallow==3.21.2
+marshmallow==3.21.3
     # via httpstan
     # via webargs
 matplotlib==3.9.0
     # via arviz
     # via matplotlib-fontja
+    # via mvgarch
     # via playground
     # via seaborn
 matplotlib-fontja==1.0.0
@@ -323,7 +325,7 @@ multipledispatch==1.0.0
     # via minikanren
 multitasking==0.0.11
     # via yfinance
-mvgarch==1.0.0
+mvgarch==1.0.1
     # via playground
 mypy-extensions==1.0.0
     # via black
@@ -360,6 +362,7 @@ numpy==1.26.4
     # via matplotlib
     # via mgarch
     # via ml-dtypes
+    # via mvgarch
     # via opt-einsum
     # via pandas
     # via patsy
@@ -439,6 +442,7 @@ packaging==24.0
 pandas==2.2.2
     # via arch
     # via arviz
+    # via mvgarch
     # via playground
     # via pmdarima
     # via pymc
@@ -473,7 +477,7 @@ plotly==5.22.0
 pluggy==1.5.0
     # via python-lsp-server
 pmdarima==2.0.4
-    # via playground
+    # via mvgarch
 polarify==0.2.0
     # via playground
 polars==0.20.31
@@ -586,7 +590,7 @@ rich==13.7.1
 rpds-py==0.18.1
     # via jsonschema
     # via referencing
-ruff==0.4.7
+ruff==0.4.8
     # via playground
     # via python-lsp-ruff
     # via ruff-lsp
@@ -603,6 +607,7 @@ scipy==1.13.1
     # via functime
     # via lightgbm
     # via mgarch
+    # via mvgarch
     # via playground
     # via pmdarima
     # via pymc
@@ -673,7 +678,7 @@ tomli==2.0.1
 toolz==0.12.1
     # via logical-unification
     # via minikanren
-torch==2.3.0
+torch==2.3.1
     # via playground
 tornado==6.4
     # via ipykernel
@@ -732,7 +737,7 @@ wcwidth==0.2.13
     # via prompt-toolkit
 webargs==8.4.0
     # via httpstan
-webcolors==1.13
+webcolors==24.6.0
     # via jsonschema
 webencodings==0.5.1
     # via bleach
