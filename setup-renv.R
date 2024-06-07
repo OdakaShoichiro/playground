@@ -5,6 +5,7 @@ install.packages(
     "car",
     "doParallel",
     "dplyr",
+    "fGarch",
     "FinTS",
     "foreach",
     "forecast",
