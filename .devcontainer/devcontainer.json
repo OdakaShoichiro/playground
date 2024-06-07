@@ -23,6 +23,8 @@
                 "r.libPaths": [
                     "/workspace/renv/"
                 ],
+                "r.lsp.debug": true,
+                "r.rterm.linux": "/home/odakas/.local/share/mise/installs/r/4.4.0/bin/R",
                 "workbench.startupEditor": "none"
             },
             "extensions": [
