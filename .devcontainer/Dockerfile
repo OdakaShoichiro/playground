@@ -81,6 +81,7 @@ ENV DEBIAN_FRONTEND="newt"
 USER odakas
 
 # Setup user settings
-RUN echo 'eval "$(/usr/bin/mise activate bash)"' >> ~/.bashrc
+RUN echo 'eval "$(/usr/bin/mise activate bash)"' >> ~/.bashrc && \
+    echo "source /workspace/.venv/bin/activate" >> .bashrc
 
 WORKDIR /workspace

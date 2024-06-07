@@ -680,7 +680,7 @@ toolz==0.12.1
     # via minikanren
 torch==2.3.1
     # via playground
-tornado==6.4
+tornado==6.4.1
     # via ipykernel
     # via jupyter-client
     # via jupyter-server
