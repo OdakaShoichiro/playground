@@ -1,5 +1,3 @@
-#!/usr/bin/Rscript
-
 renv::restore()
 
 install.packages(
@@ -19,6 +17,7 @@ install.packages(
     "kernlab",
     "languageserver",
     "nortest",
+    "optiSolve",
     "plm",
     "quantmod",
     "randomForest",
