@@ -112,9 +112,9 @@ etuples==0.3.9
     # via pytensor
 executing==2.0.1
     # via stack-data
-fastjsonschema==2.19.1
+fastjsonschema==2.20.0
     # via nbformat
-filelock==3.14.0
+filelock==3.15.1
     # via huggingface-hub
     # via pytensor
     # via torch
@@ -161,7 +161,7 @@ httpstan==4.12.0
     # via pystan
 httpx==0.27.0
     # via jupyterlab
-huggingface-hub==0.23.3
+huggingface-hub==0.23.4
     # via playground
 idna==3.7
     # via anyio
@@ -203,7 +203,7 @@ joblib==1.4.2
     # via scikit-learn
 json5==0.9.25
     # via jupyterlab-server
-jsonpointer==2.4
+jsonpointer==3.0.0
     # via jsonschema
 jsonschema==4.22.0
     # via jupyter-events
@@ -245,7 +245,7 @@ jupyter-server==2.14.1
     # via notebook-shim
 jupyter-server-terminals==0.5.3
     # via jupyter-server
-jupyterlab==4.2.1
+jupyterlab==4.2.2
     # via jupyterlab-lsp
     # via notebook
 jupyterlab-code-formatter==2.2.1
@@ -267,7 +267,7 @@ kiwisolver==1.4.5
     # via matplotlib
 libclang==18.1.1
     # via tensorflow
-lightgbm==4.3.0
+lightgbm==4.4.0
     # via playground
 logical-unification==0.4.6
     # via cons
@@ -409,7 +409,7 @@ nvidia-nvjitlink-cu12==12.5.40
     # via nvidia-cusparse-cu12
 nvidia-nvtx-cu12==12.1.105
     # via torch
-openpyxl==3.1.3
+openpyxl==3.1.4
     # via playground
 opt-einsum==3.3.0
     # via tensorflow
@@ -417,7 +417,7 @@ optree==0.11.0
     # via keras
 overrides==7.7.0
     # via jupyter-server
-packaging==24.0
+packaging==24.1
     # via arviz
     # via black
     # via h5netcdf
@@ -495,7 +495,7 @@ polugins==0.5.1
     # via playground
 prometheus-client==0.20.0
     # via jupyter-server
-prompt-toolkit==3.0.46
+prompt-toolkit==3.0.47
     # via ipython
     # via jupyter-console
 protobuf==4.25.3
@@ -512,7 +512,7 @@ pyarrow==16.1.0
     # via playground
 pycparser==2.22
     # via cffi
-pydantic==2.7.3
+pydantic==2.7.4
     # via patito
 pydantic-core==2.18.4
     # via pydantic
@@ -590,7 +590,7 @@ rich==13.7.1
 rpds-py==0.18.1
     # via jsonschema
     # via referencing
-ruff==0.4.8
+ruff==0.4.9
     # via playground
     # via python-lsp-ruff
     # via ruff-lsp
@@ -623,6 +623,7 @@ send2trash==1.8.3
 setuptools==70.0.0
     # via arviz
     # via httpstan
+    # via jupyterlab
     # via pmdarima
     # via pystan
     # via pytensor
@@ -753,7 +754,7 @@ widgetsnbextension==4.0.11
     # via ipywidgets
 wrapt==1.16.0
     # via tensorflow
-xarray==2024.5.0
+xarray==2024.6.0
     # via arviz
     # via playground
     # via xarray-einstats
