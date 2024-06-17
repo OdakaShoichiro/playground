@@ -656,7 +656,7 @@ statsmodels==0.14.2
 sympy==1.12.1
     # via playground
     # via torch
-tenacity==8.3.0
+tenacity==8.4.0
     # via plotly
 tensorboard==2.16.2
     # via tensorflow
