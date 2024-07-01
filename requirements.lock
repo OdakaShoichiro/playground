@@ -95,7 +95,7 @@ cycler==0.12.1
     # via matplotlib
 cython==3.0.10
     # via pmdarima
-debugpy==1.8.1
+debugpy==1.8.2
     # via ipykernel
 decorator==5.1.1
     # via ipython
@@ -114,7 +114,7 @@ executing==2.0.1
     # via stack-data
 fastjsonschema==2.20.0
     # via nbformat
-filelock==3.15.3
+filelock==3.15.4
     # via huggingface-hub
     # via pytensor
     # via torch
@@ -131,12 +131,12 @@ frozendict==2.4.4
 frozenlist==1.4.1
     # via aiohttp
     # via aiosignal
-fsspec==2024.6.0
+fsspec==2024.6.1
     # via huggingface-hub
     # via torch
 functime==0.9.5
     # via playground
-gast==0.5.4
+gast==0.6.0
     # via tensorflow
 google-pasta==0.2.0
     # via tensorflow
@@ -174,13 +174,13 @@ ipykernel==6.29.4
     # via jupyter-console
     # via jupyterlab
     # via qtconsole
-ipython==8.25.0
+ipython==8.26.0
     # via ipykernel
     # via ipywidgets
     # via jupyter-console
 ipyvue==1.11.1
     # via ipyvuetify
-ipyvuetable==0.3.0
+ipyvuetable==0.4.0
     # via playground
 ipyvuetify==1.9.4
     # via ipyvuetable
@@ -189,6 +189,10 @@ ipywidgets==8.1.3
     # via jupyter
 isoduration==20.11.0
     # via jsonschema
+jax==0.4.30
+    # via playground
+jaxlib==0.4.30
+    # via jax
 jedi==0.19.1
     # via ipython
     # via python-lsp-server
@@ -245,7 +249,7 @@ jupyter-server==2.14.1
     # via notebook-shim
 jupyter-server-terminals==0.5.3
     # via jupyter-server
-jupyterlab==4.2.2
+jupyterlab==4.2.3
     # via jupyterlab-lsp
     # via notebook
 jupyterlab-code-formatter==2.2.1
@@ -261,7 +265,7 @@ jupyterlab-server==2.27.2
     # via notebook
 jupyterlab-widgets==3.0.11
     # via ipywidgets
-keras==3.3.3
+keras==3.4.1
     # via tensorflow
 kiwisolver==1.4.5
     # via matplotlib
@@ -312,6 +316,8 @@ minikanren==1.0.3
 mistune==3.0.2
     # via nbconvert
 ml-dtypes==0.3.2
+    # via jax
+    # via jaxlib
     # via keras
     # via tensorflow
 mpmath==1.3.0
@@ -357,6 +363,8 @@ numpy==1.26.4
     # via functime
     # via h5py
     # via httpstan
+    # via jax
+    # via jaxlib
     # via keras
     # via lightgbm
     # via matplotlib
@@ -409,9 +417,10 @@ nvidia-nvjitlink-cu12==12.5.40
     # via nvidia-cusparse-cu12
 nvidia-nvtx-cu12==12.1.105
     # via torch
-openpyxl==3.1.4
+openpyxl==3.1.5
     # via playground
 opt-einsum==3.3.0
+    # via jax
     # via tensorflow
 optree==0.11.0
     # via keras
@@ -427,6 +436,7 @@ packaging==24.1
     # via jupyterlab
     # via jupyterlab-code-formatter
     # via jupyterlab-server
+    # via keras
     # via marshmallow
     # via matplotlib
     # via nbconvert
@@ -466,7 +476,7 @@ peewee==3.17.5
     # via yfinance
 pexpect==4.9.0
     # via ipython
-pillow==10.3.0
+pillow==10.4.0
     # via matplotlib
 platformdirs==4.2.2
     # via black
@@ -526,7 +536,7 @@ pygments==2.18.0
     # via rich
 pylev==1.4.0
     # via clikit
-pymc==5.15.1
+pymc==5.16.1
     # via playground
 pyparsing==3.1.2
     # via matplotlib
@@ -536,7 +546,7 @@ pysimdjson==6.0.2
     # via pystan
 pystan==3.9.1
     # via playground
-pytensor==2.22.1
+pytensor==2.23.0
     # via pymc
 python-dateutil==2.9.0.post0
     # via arrow
@@ -590,21 +600,23 @@ rich==13.7.1
 rpds-py==0.18.1
     # via jsonschema
     # via referencing
-ruff==0.4.10
+ruff==0.5.0
     # via playground
     # via python-lsp-ruff
     # via ruff-lsp
-ruff-lsp==0.0.53
+ruff-lsp==0.0.54
     # via playground
 scikit-learn==1.5.0
     # via functime
     # via playground
     # via pmdarima
     # via shirokumas
-scipy==1.13.1
+scipy==1.14.0
     # via arch
     # via arviz
     # via functime
+    # via jax
+    # via jaxlib
     # via lightgbm
     # via mgarch
     # via mvgarch
@@ -620,7 +632,7 @@ seaborn==0.13.2
     # via playground
 send2trash==1.8.3
     # via jupyter-server
-setuptools==70.1.0
+setuptools==70.1.1
     # via arviz
     # via httpstan
     # via jupyterlab
@@ -656,13 +668,13 @@ statsmodels==0.14.2
 sympy==1.12.1
     # via playground
     # via torch
-tenacity==8.4.1
+tenacity==8.4.2
     # via plotly
 tensorboard==2.16.2
     # via tensorflow
 tensorboard-data-server==0.7.2
     # via tensorboard
-tensorflow==2.16.1
+tensorflow==2.16.2
     # via playground
 termcolor==2.4.0
     # via tensorflow

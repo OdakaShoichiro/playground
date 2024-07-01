@@ -17,6 +17,7 @@ install.packages(
     "jsonlite",
     "kernlab",
     "languageserver",
+    "mlbench",
     "nortest",
     "optiSolve",
     "plm",
