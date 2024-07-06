@@ -17,6 +17,7 @@ install.packages(
     "IRkernel",
     "jsonlite",
     "kernlab",
+    "KFAS",
     "languageserver",
     "lars",
     "mlbench",

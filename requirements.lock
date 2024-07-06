@@ -122,7 +122,7 @@ flaml==2.1.2
     # via functime
 flatbuffers==24.3.25
     # via tensorflow
-fonttools==4.53.0
+fonttools==4.53.1
     # via matplotlib
 fqdn==1.5.1
     # via jsonschema
@@ -600,7 +600,7 @@ rich==13.7.1
 rpds-py==0.18.1
     # via jsonschema
     # via referencing
-ruff==0.5.0
+ruff==0.5.1
     # via playground
     # via python-lsp-ruff
     # via ruff-lsp
