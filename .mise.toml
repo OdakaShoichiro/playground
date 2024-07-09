@@ -9,7 +9,7 @@ pandoc = '3.2.1'
 python = "3.12.4"
 r = '4.4.1'
 rust = '1.79.0'
-rye = '0.35.0'
+rye = '0.36.0'
 
 [plugins]
 julia = 'https://github.com/rkyleg/asdf-julia.git'
