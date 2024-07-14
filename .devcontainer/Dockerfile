@@ -1,4 +1,4 @@
-FROM nvidia/cuda:12.5.0-devel-ubuntu22.04
+FROM nvidia/cuda:12.5.1-devel-ubuntu22.04
 
 ARG UNAME=odakas
 ARG UID=1000
@@ -79,9 +79,10 @@ RUN useradd -m -s /bin/bash -G sudo "${UNAME}" --uid "${UID}" && \
 ENV DEBIAN_FRONTEND="newt"
 
 USER odakas
+WORKDIR /home/odakas
 
 # Setup user settings
-RUN echo 'eval "$(/usr/bin/mise activate bash)"' >> ~/.bashrc && \
+RUN echo 'eval "$(/usr/bin/mise activate bash)"' >> .bashrc && \
     echo "source /workspace/.venv/bin/activate" >> .bashrc
 
 WORKDIR /workspace
