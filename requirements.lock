@@ -60,7 +60,7 @@ black==24.4.2
     # via playground
 bleach==6.1.0
     # via nbconvert
-cachetools==5.3.3
+cachetools==5.4.0
     # via pymc
 cattrs==23.2.3
     # via lsprotocol
@@ -141,7 +141,7 @@ gast==0.6.0
     # via tensorflow
 google-pasta==0.2.0
     # via tensorflow
-grpcio==1.64.1
+grpcio==1.65.1
     # via tensorboard
     # via tensorflow
 h11==0.14.0
@@ -152,7 +152,7 @@ h5py==3.11.0
     # via h5netcdf
     # via keras
     # via tensorflow
-holidays==0.52
+holidays==0.53
     # via functime
 html5lib==1.1
     # via yfinance
@@ -162,7 +162,7 @@ httpstan==4.13.0
     # via pystan
 httpx==0.27.0
     # via jupyterlab
-huggingface-hub==0.23.4
+huggingface-hub==0.24.0
     # via playground
 idna==3.7
     # via anyio
@@ -181,7 +181,7 @@ ipython==8.26.0
     # via jupyter-console
 ipyvue==1.11.1
     # via ipyvuetify
-ipyvuetable==0.4.0
+ipyvuetable==0.5.0
     # via playground
 ipyvuetify==1.9.4
     # via ipyvuetable
@@ -261,7 +261,7 @@ jupyterlab-lsp==5.1.0
     # via playground
 jupyterlab-pygments==0.3.0
     # via nbconvert
-jupyterlab-server==2.27.2
+jupyterlab-server==2.27.3
     # via jupyterlab
     # via notebook
 jupyterlab-widgets==3.0.11
@@ -500,7 +500,7 @@ polars==0.20.31
     # via polars-ds
     # via polugins
     # via shirokumas
-polars-ds==0.4.6
+polars-ds==0.5.0
     # via playground
 polugins==0.5.1
     # via playground
@@ -519,7 +519,7 @@ ptyprocess==0.7.0
     # via terminado
 pure-eval==0.2.2
     # via stack-data
-pyarrow==16.1.0
+pyarrow==17.0.0
     # via playground
 pycparser==2.22
     # via cffi
@@ -559,7 +559,7 @@ python-json-logger==2.0.7
     # via jupyter-events
 python-lsp-jsonrpc==1.1.2
     # via python-lsp-server
-python-lsp-ruff==2.2.1
+python-lsp-ruff==2.2.2
     # via playground
 python-lsp-server==1.11.0
     # via playground
@@ -633,7 +633,7 @@ seaborn==0.13.2
     # via playground
 send2trash==1.8.3
     # via jupyter-server
-setuptools==70.3.0
+setuptools==71.0.2
     # via arviz
     # via httpstan
     # via jupyterlab
