@@ -39,18 +39,18 @@ dependencies = [
     "python-lsp-ruff>=2.2.2",
     "python-lsp-server>=1.11.0",
     "ruff-lsp>=0.0.54",
-    "ruff>=0.5.2",
+    "ruff>=0.5.3",
     "scikit-learn>=1.5.1",
     "scipy>=1.13.1",
     "seaborn>=0.13.2",
     "shirokumas>=0.0.3",
     "statsmodels>=0.14.2",
-    "sympy>=1.13.0",
+    "sympy>=1.13.1",
     "tensorflow>=2.17.0",
     "torch>=2.3.1",
     "unidic-lite>=1.0.8",
     "xarray>=2024.6.0",
-    "yfinance>=0.2.40",
+    "yfinance>=0.2.41",
 ]
 
 [project.scripts]

@@ -37,7 +37,7 @@ armagarch==1.0.4
     # via playground
 arrow==1.3.0
     # via isoduration
-arviz==0.18.0
+arviz==0.19.0
     # via pymc
 asttokens==2.4.1
     # via stack-data
@@ -250,7 +250,7 @@ jupyter-server==2.14.2
     # via notebook-shim
 jupyter-server-terminals==0.5.3
     # via jupyter-server
-jupyterlab==4.2.3
+jupyterlab==4.2.4
     # via jupyterlab-lsp
     # via notebook
 jupyterlab-code-formatter==2.2.1
@@ -601,7 +601,7 @@ rich==13.7.1
 rpds-py==0.19.0
     # via jsonschema
     # via referencing
-ruff==0.5.2
+ruff==0.5.3
     # via playground
     # via python-lsp-ruff
     # via ruff-lsp
@@ -633,7 +633,7 @@ seaborn==0.13.2
     # via playground
 send2trash==1.8.3
     # via jupyter-server
-setuptools==71.0.2
+setuptools==71.0.4
     # via arviz
     # via httpstan
     # via jupyterlab
@@ -666,7 +666,7 @@ statsmodels==0.14.2
     # via arch
     # via playground
     # via pmdarima
-sympy==1.13.0
+sympy==1.13.1
     # via playground
     # via torch
 tenacity==8.5.0
@@ -775,5 +775,5 @@ xarray-einstats==0.7.0
     # via arviz
 yarl==1.9.4
     # via aiohttp
-yfinance==0.2.40
+yfinance==0.2.41
     # via playground
