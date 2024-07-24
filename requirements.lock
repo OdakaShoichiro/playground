@@ -119,6 +119,7 @@ filelock==3.15.4
     # via huggingface-hub
     # via pytensor
     # via torch
+    # via triton
 flaml==2.1.2
     # via functime
 flatbuffers==24.3.25
@@ -162,7 +163,7 @@ httpstan==4.13.0
     # via pystan
 httpx==0.27.0
     # via jupyterlab
-huggingface-hub==0.24.0
+huggingface-hub==0.24.2
     # via playground
 idna==3.7
     # via anyio
@@ -253,7 +254,7 @@ jupyter-server-terminals==0.5.3
 jupyterlab==4.2.4
     # via jupyterlab-lsp
     # via notebook
-jupyterlab-code-formatter==2.2.1
+jupyterlab-code-formatter==3.0.0
     # via playground
 jupyterlab-language-pack-ja-jp==4.2.post1
     # via playground
@@ -400,7 +401,7 @@ nvidia-cuda-nvrtc-cu12==12.1.105
     # via torch
 nvidia-cuda-runtime-cu12==12.1.105
     # via torch
-nvidia-cudnn-cu12==8.9.2.26
+nvidia-cudnn-cu12==9.1.0.70
     # via torch
 nvidia-cufft-cu12==11.0.2.54
     # via torch
@@ -483,7 +484,7 @@ platformdirs==4.2.2
     # via black
     # via jupyter-core
     # via yfinance
-plotly==5.22.0
+plotly==5.23.0
     # via playground
 pluggy==1.5.0
     # via python-lsp-server
@@ -517,7 +518,7 @@ psutil==6.0.0
 ptyprocess==0.7.0
     # via pexpect
     # via terminado
-pure-eval==0.2.2
+pure-eval==0.2.3
     # via stack-data
 pyarrow==17.0.0
     # via playground
@@ -598,10 +599,10 @@ rfc3986-validator==0.1.1
 rich==13.7.1
     # via keras
     # via pymc
-rpds-py==0.19.0
+rpds-py==0.19.1
     # via jsonschema
     # via referencing
-ruff==0.5.3
+ruff==0.5.4
     # via playground
     # via python-lsp-ruff
     # via ruff-lsp
@@ -633,7 +634,7 @@ seaborn==0.13.2
     # via playground
 send2trash==1.8.3
     # via jupyter-server
-setuptools==71.0.4
+setuptools==71.1.0
     # via arviz
     # via httpstan
     # via jupyterlab
@@ -642,6 +643,7 @@ setuptools==71.0.4
     # via pytensor
     # via tensorboard
     # via tensorflow
+    # via torch
 shirokumas==0.0.3
     # via playground
 six==1.16.0
@@ -692,7 +694,7 @@ tomli==2.0.1
 toolz==0.12.1
     # via logical-unification
     # via minikanren
-torch==2.3.1
+torch==2.4.0
     # via playground
 tornado==6.4.1
     # via ipykernel
@@ -720,6 +722,8 @@ traitlets==5.14.3
     # via nbconvert
     # via nbformat
     # via qtconsole
+triton==3.0.0
+    # via torch
 types-python-dateutil==2.9.0.20240316
     # via arrow
 typing-extensions==4.12.2
