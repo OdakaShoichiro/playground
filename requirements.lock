@@ -182,7 +182,7 @@ ipython==8.26.0
     # via jupyter-console
 ipyvue==1.11.1
     # via ipyvuetify
-ipyvuetable==0.5.0
+ipyvuetable==0.7.1
     # via playground
 ipyvuetify==1.9.4
     # via ipyvuetable
@@ -273,7 +273,7 @@ kiwisolver==1.4.5
     # via matplotlib
 libclang==18.1.1
     # via tensorflow
-lightgbm==4.4.0
+lightgbm==4.5.0
     # via playground
 logical-unification==0.4.6
     # via cons
@@ -510,7 +510,7 @@ prometheus-client==0.20.0
 prompt-toolkit==3.0.47
     # via ipython
     # via jupyter-console
-protobuf==4.25.3
+protobuf==4.25.4
     # via tensorboard
     # via tensorflow
 psutil==6.0.0
@@ -602,7 +602,7 @@ rich==13.7.1
 rpds-py==0.19.1
     # via jsonschema
     # via referencing
-ruff==0.5.4
+ruff==0.5.5
     # via playground
     # via python-lsp-ruff
     # via ruff-lsp

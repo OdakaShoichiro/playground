@@ -8,7 +8,7 @@ node = '22.5.1'
 pandoc = '3.2.1'
 python = "3.12.4"
 r = '4.4.1'
-rust = '1.79.0'
+rust = '1.80.0'
 rye = '0.37.0'
 
 [plugins]
