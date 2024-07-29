@@ -5,6 +5,7 @@ install.packages(
     "car",
     "doParallel",
     "dplyr",
+    "e1071",
     "fGarch",
     "FinTS",
     "foreach",
@@ -38,6 +39,7 @@ install.packages(
     "tidyverse",
     "tseries",
     "urca",
+    "xgboost",
     "wordcloud2"
   ),
   repos = "http://cran.rstudio.com/"

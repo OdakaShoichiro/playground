@@ -163,7 +163,7 @@ httpstan==4.13.0
     # via pystan
 httpx==0.27.0
     # via jupyterlab
-huggingface-hub==0.24.2
+huggingface-hub==0.24.3
     # via playground
 idna==3.7
     # via anyio
@@ -256,7 +256,7 @@ jupyterlab==4.2.4
     # via notebook
 jupyterlab-code-formatter==3.0.0
     # via playground
-jupyterlab-language-pack-ja-jp==4.2.post1
+jupyterlab-language-pack-ja-jp==4.2.post2
     # via playground
 jupyterlab-lsp==5.1.0
     # via playground
@@ -634,7 +634,7 @@ seaborn==0.13.2
     # via playground
 send2trash==1.8.3
     # via jupyter-server
-setuptools==71.1.0
+setuptools==72.1.0
     # via arviz
     # via httpstan
     # via jupyterlab
@@ -671,7 +671,7 @@ statsmodels==0.14.2
 sympy==1.13.1
     # via playground
     # via torch
-tenacity==8.5.0
+tenacity==9.0.0
     # via plotly
 tensorboard==2.17.0
     # via tensorflow
