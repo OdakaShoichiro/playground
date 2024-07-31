@@ -14,7 +14,9 @@ absl-py==2.1.0
     # via keras
     # via tensorboard
     # via tensorflow
-aiohttp==3.9.5
+aiohappyeyeballs==2.3.2
+    # via aiohttp
+aiohttp==3.10.0
     # via httpstan
     # via pystan
 aiosignal==1.3.1
@@ -142,7 +144,7 @@ gast==0.6.0
     # via tensorflow
 google-pasta==0.2.0
     # via tensorflow
-grpcio==1.65.1
+grpcio==1.65.2
     # via tensorboard
     # via tensorflow
 h11==0.14.0
@@ -163,7 +165,7 @@ httpstan==4.13.0
     # via pystan
 httpx==0.27.0
     # via jupyterlab
-huggingface-hub==0.24.3
+huggingface-hub==0.24.5
     # via playground
 idna==3.7
     # via anyio
@@ -191,9 +193,9 @@ ipywidgets==8.1.3
     # via jupyter
 isoduration==20.11.0
     # via jsonschema
-jax==0.4.30
+jax==0.4.31
     # via playground
-jaxlib==0.4.30
+jaxlib==0.4.31
     # via jax
 jedi==0.19.1
     # via ipython
@@ -771,7 +773,7 @@ widgetsnbextension==4.0.11
     # via ipywidgets
 wrapt==1.16.0
     # via tensorflow
-xarray==2024.6.0
+xarray==2024.7.0
     # via arviz
     # via playground
     # via xarray-einstats

@@ -10,9 +10,9 @@ dependencies = [
     "armagarch>=1.0.4",
     "black>=24.4.2",
     "functime>=0.9.5",
-    "huggingface-hub>=0.24.3",
+    "huggingface-hub>=0.24.5",
     "ipyvuetable>=0.7.1",
-    "jax>=0.4.30",
+    "jax>=0.4.31",
     "jupyter>=1.0.0",
     "jupyterlab-code-formatter>=2.2.1",
     "jupyterlab-language-pack-ja-jp>=4.2.post2",
@@ -49,7 +49,7 @@ dependencies = [
     "tensorflow>=2.17.0",
     "torch>=2.4.0",
     "unidic-lite>=1.0.8",
-    "xarray>=2024.6.0",
+    "xarray>=2024.7.0",
     "yfinance>=0.2.41",
 ]
 
