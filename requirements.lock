@@ -269,7 +269,7 @@ jupyterlab-server==2.27.3
     # via notebook
 jupyterlab-widgets==3.0.11
     # via ipywidgets
-keras==3.4.1
+keras==3.5.0
     # via tensorflow
 kiwisolver==1.4.5
     # via matplotlib
@@ -298,7 +298,7 @@ markupsafe==2.1.5
 marshmallow==3.21.3
     # via httpstan
     # via webargs
-matplotlib==3.9.1.post1
+matplotlib==3.9.2
     # via arviz
     # via matplotlib-fontja
     # via mvgarch
@@ -503,7 +503,7 @@ polars==0.20.31
     # via polars-ds
     # via polugins
     # via shirokumas
-polars-ds==0.5.1
+polars-ds==0.5.2
     # via playground
 polugins==0.5.1
     # via playground
@@ -636,7 +636,7 @@ seaborn==0.13.2
     # via playground
 send2trash==1.8.3
     # via jupyter-server
-setuptools==72.1.0
+setuptools==72.2.0
     # via arviz
     # via httpstan
     # via jupyterlab
@@ -662,7 +662,7 @@ six==1.16.0
 sniffio==1.3.1
     # via anyio
     # via httpx
-soupsieve==2.5
+soupsieve==2.6
     # via beautifulsoup4
 stack-data==0.6.3
     # via ipython
@@ -670,7 +670,7 @@ statsmodels==0.14.2
     # via arch
     # via playground
     # via pmdarima
-sympy==1.13.1
+sympy==1.13.2
     # via playground
     # via torch
 tenacity==9.0.0
