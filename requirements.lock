@@ -14,7 +14,7 @@ absl-py==2.1.0
     # via keras
     # via tensorboard
     # via tensorflow
-aiohappyeyeballs==2.3.5
+aiohappyeyeballs==2.3.6
     # via aiohttp
 aiohttp==3.10.3
     # via httpstan
@@ -256,7 +256,7 @@ jupyter-server-terminals==0.5.3
 jupyterlab==4.2.4
     # via jupyterlab-lsp
     # via notebook
-jupyterlab-code-formatter==3.0.1
+jupyterlab-code-formatter==3.0.2
     # via playground
 jupyterlab-language-pack-ja-jp==4.2.post2
     # via playground
@@ -450,6 +450,7 @@ packaging==24.1
     # via qtpy
     # via ruff-lsp
     # via statsmodels
+    # via tensorboard
     # via tensorflow
     # via webargs
     # via xarray
@@ -604,7 +605,7 @@ rich==13.7.1
 rpds-py==0.20.0
     # via jsonschema
     # via referencing
-ruff==0.5.7
+ruff==0.6.0
     # via playground
     # via python-lsp-ruff
     # via ruff-lsp
@@ -675,7 +676,7 @@ sympy==1.13.2
     # via torch
 tenacity==9.0.0
     # via plotly
-tensorboard==2.17.0
+tensorboard==2.17.1
     # via tensorflow
 tensorboard-data-server==0.7.2
     # via tensorboard
