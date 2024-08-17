@@ -144,7 +144,7 @@ gast==0.6.0
     # via tensorflow
 google-pasta==0.2.0
     # via tensorflow
-grpcio==1.65.4
+grpcio==1.65.5
     # via tensorboard
     # via tensorflow
 h11==0.14.0
@@ -287,7 +287,7 @@ lsprotocol==2023.0.1
     # via ruff-lsp
 lxml==5.3.0
     # via yfinance
-markdown==3.6
+markdown==3.7
     # via tensorboard
 markdown-it-py==3.0.0
     # via rich
@@ -605,11 +605,11 @@ rich==13.7.1
 rpds-py==0.20.0
     # via jsonschema
     # via referencing
-ruff==0.6.0
+ruff==0.6.1
     # via playground
     # via python-lsp-ruff
     # via ruff-lsp
-ruff-lsp==0.0.54
+ruff-lsp==0.0.55
     # via playground
 scikit-learn==1.5.1
     # via functime
