@@ -7,6 +7,7 @@
             "settings": {
                 "breadcrumbs.enabled": true,
                 "cSpell.autoFormatConfigFile": true,
+                "editor.accessibilitySupport": "off",
                 "editor.bracketPairColorization.enabled": true,
                 "editor.fontFamily": "\"Myrica M\"",
                 "editor.formatOnSave": true,

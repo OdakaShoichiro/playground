@@ -51,6 +51,7 @@ dependencies = [
     "unidic-lite>=1.0.8",
     "xarray>=2024.7.0",
     "yfinance>=0.2.41",
+    "fastsom>=1.0.2",
 ]
 
 [project.scripts]

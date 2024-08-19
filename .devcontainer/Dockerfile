@@ -1,9 +1,10 @@
-FROM nvidia/cuda:12.5.1-devel-ubuntu22.04
+FROM nvidia/cuda:12.6.0-cudnn-devel-ubuntu24.04
 
 ARG UNAME=odakas
-ARG UID=1000
+ARG UID=2000
 
 ENV TZ=Asia/Tokyo
+ENV SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True
 
 ENV JULIA_PROJECT="/workspace"
 ENV JULIA_DEPOT_PATH="/workspace/julia_pkgs"
