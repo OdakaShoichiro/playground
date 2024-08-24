@@ -11,7 +11,7 @@ dependencies = [
     "black>=24.4.2",
     "functime>=0.9.5",
     "huggingface-hub>=0.24.6",
-    "ipyvuetable>=0.7.1",
+    "ipyvuetable>=0.7.4",
     "jax>=0.4.31",
     "jupyter>=1.0.0",
     "jupyterlab-code-formatter>=3.0.2",
@@ -50,7 +50,7 @@ dependencies = [
     "torch>=2.4.0",
     "unidic-lite>=1.0.8",
     "xarray>=2024.7.0",
-    "yfinance>=0.2.41",
+    "yfinance>=0.2.42",
     "fastsom>=1.0.2",
 ]
 

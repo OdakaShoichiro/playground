@@ -177,7 +177,7 @@ gast==0.6.0
     # via tensorflow
 google-pasta==0.2.0
     # via tensorflow
-grpcio==1.65.5
+grpcio==1.66.0
     # via tensorboard
     # via tensorflow
 h11==0.14.0
@@ -200,7 +200,7 @@ httpx==0.27.0
     # via jupyterlab
 huggingface-hub==0.24.6
     # via playground
-idna==3.7
+idna==3.8
     # via anyio
     # via httpx
     # via jsonschema
@@ -217,7 +217,7 @@ ipython==8.26.0
     # via jupyter-console
 ipyvue==1.11.1
     # via ipyvuetify
-ipyvuetable==0.7.1
+ipyvuetable==0.7.4
     # via playground
 ipyvuetify==1.10.0
     # via ipyvuetable
@@ -623,7 +623,7 @@ pysimdjson==6.0.2
     # via pystan
 pystan==3.10.0
     # via playground
-pytensor==2.25.3
+pytensor==2.25.4
     # via pymc
 python-dateutil==2.9.0.post0
     # via arrow
@@ -902,5 +902,5 @@ xarray-einstats==0.7.0
     # via arviz
 yarl==1.9.4
     # via aiohttp
-yfinance==0.2.41
+yfinance==0.2.42
     # via playground
