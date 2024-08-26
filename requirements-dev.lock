@@ -217,7 +217,7 @@ ipython==8.26.0
     # via jupyter-console
 ipyvue==1.11.1
     # via ipyvuetify
-ipyvuetable==0.7.4
+ipyvuetable==0.7.5
     # via playground
 ipyvuetify==1.10.0
     # via ipyvuetable
@@ -615,7 +615,7 @@ pylev==1.4.0
     # via clikit
 pymc==5.16.2
     # via playground
-pyparsing==3.1.2
+pyparsing==3.1.4
     # via matplotlib
 pyper==1.1.2
     # via playground
@@ -637,7 +637,7 @@ python-lsp-jsonrpc==1.1.2
     # via python-lsp-server
 python-lsp-ruff==2.2.2
     # via playground
-python-lsp-server==1.11.0
+python-lsp-server==1.12.0
     # via playground
     # via python-lsp-ruff
 pytz==2024.1
@@ -837,7 +837,7 @@ traitlets==5.14.3
     # via qtconsole
 triton==3.0.0
     # via torch
-typer==0.12.4
+typer==0.12.5
     # via spacy
     # via weasel
 types-python-dateutil==2.9.0.20240821
@@ -902,5 +902,5 @@ xarray-einstats==0.7.0
     # via arviz
 yarl==1.9.4
     # via aiohttp
-yfinance==0.2.42
+yfinance==0.2.43
     # via playground
