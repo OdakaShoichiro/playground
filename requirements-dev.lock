@@ -138,7 +138,7 @@ fastai==2.7.17
     # via fastsom
 fastai-category-encoders==0.0.4
     # via fastsom
-fastcore==1.7.2
+fastcore==1.7.3
     # via fastai
     # via fastdownload
 fastdownload==0.0.7
@@ -565,7 +565,7 @@ polars==0.20.31
     # via polars-ds
     # via polugins
     # via shirokumas
-polars-ds==0.5.2
+polars-ds==0.5.3
     # via playground
 polugins==0.5.1
     # via playground
@@ -889,7 +889,7 @@ xarray==2024.7.0
     # via xarray-einstats
 xarray-einstats==0.7.0
     # via arviz
-yarl==1.9.4
+yarl==1.9.6
     # via aiohttp
 yfinance==0.2.43
     # via playground
