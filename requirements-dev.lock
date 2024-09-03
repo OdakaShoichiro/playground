@@ -131,14 +131,14 @@ et-xmlfile==1.1.0
 etuples==0.3.9
     # via minikanren
     # via pytensor
-executing==2.0.1
+executing==2.1.0
     # via stack-data
 fastai==2.7.17
     # via fastai-category-encoders
     # via fastsom
 fastai-category-encoders==0.0.4
     # via fastsom
-fastcore==1.7.3
+fastcore==1.7.4
     # via fastai
     # via fastdownload
 fastdownload==0.0.7
@@ -188,7 +188,7 @@ h5py==3.11.0
     # via h5netcdf
     # via keras
     # via tensorflow
-holidays==0.55
+holidays==0.56
     # via functime
 html5lib==1.1
     # via yfinance
@@ -216,7 +216,7 @@ ipython==8.27.0
     # via jupyter-console
 ipyvue==1.11.1
     # via ipyvuetify
-ipyvuetable==0.7.13
+ipyvuetable==0.7.15
     # via playground
 ipyvuetify==1.10.0
     # via ipyvuetable
@@ -709,7 +709,7 @@ seaborn==0.13.2
     # via playground
 send2trash==1.8.3
     # via jupyter-server
-setuptools==74.0.0
+setuptools==74.1.1
     # via arviz
     # via httpstan
     # via jupyterlab
@@ -889,7 +889,7 @@ xarray==2024.7.0
     # via xarray-einstats
 xarray-einstats==0.7.0
     # via arviz
-yarl==1.9.6
+yarl==1.9.7
     # via aiohttp
 yfinance==0.2.43
     # via playground
