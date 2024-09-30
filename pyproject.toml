@@ -6,12 +6,12 @@ authors = [{ name = "Shoichieo Odaka", email = "odakas1994@gmail.com" }]
 readme = "README.md"
 requires-python = ">= 3.12"
 dependencies = [
-    "arch>=7.0.0",
+    "arch>=7.1.0",
     "armagarch>=1.0.4",
     "black>=24.8.0",
     "fastsom>=1.0.2",
     "functime>=0.9.5",
-    "huggingface-hub>=0.25.0",
+    "huggingface-hub>=0.25.1",
     "ipyvuetable>=0.7.16",
     "jax>=0.4.31",
     "jupyter>=1.1.1",
@@ -40,7 +40,7 @@ dependencies = [
     "python-lsp-ruff>=2.2.2",
     "python-lsp-server>=1.11.0",
     "ruff-lsp>=0.0.57",
-    "ruff>=0.6.7",
+    "ruff>=0.6.8",
     "scikit-learn>=1.5.2",
     "scipy>=1.14.1",
     "seaborn>=0.13.2",

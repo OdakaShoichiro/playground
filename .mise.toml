@@ -4,12 +4,12 @@ _.python.venv = "/workspace/.venv"
 
 [tools]
 julia = '1.10.5'
-node = '22.8.0'
+node = '22.9.0'
 pandoc = '3.4'
 python = "3.12.6"
 r = '4.4.1'
 rust = '1.81.0'
-rye = '0.39.0'
+rye = '0.40.0'
 
 [plugins]
 julia = 'https://github.com/rkyleg/asdf-julia.git'
