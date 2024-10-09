@@ -58,7 +58,7 @@ babel==2.16.0
 beautifulsoup4==4.12.3
     # via nbconvert
     # via yfinance
-black==24.8.0
+black==24.10.0
     # via playground
 bleach==6.1.0
     # via nbconvert
@@ -82,7 +82,7 @@ certifi==2024.8.30
     # via requests
 cffi==1.17.1
     # via argon2-cffi-bindings
-charset-normalizer==3.3.2
+charset-normalizer==3.4.0
     # via requests
 click==8.1.7
     # via black
@@ -136,7 +136,7 @@ fastai==2.7.17
     # via fastsom
 fastai-category-encoders==0.0.4
     # via fastsom
-fastcore==1.7.11
+fastcore==1.7.12
     # via fastai
     # via fastdownload
 fastdownload==0.0.7
@@ -161,7 +161,7 @@ fonttools==4.54.1
     # via matplotlib
 fqdn==1.5.1
     # via jsonschema
-frozendict==2.4.4
+frozendict==2.4.5
     # via yfinance
 frozenlist==1.4.1
     # via aiohttp
@@ -180,13 +180,13 @@ grpcio==1.66.2
     # via tensorflow
 h11==0.14.0
     # via httpcore
-h5netcdf==1.3.0
+h5netcdf==1.4.0
     # via arviz
 h5py==3.12.1
     # via h5netcdf
     # via keras
     # via tensorflow
-holidays==0.57
+holidays==0.58
     # via functime
 html5lib==1.1
     # via yfinance
@@ -196,7 +196,7 @@ httpstan==4.13.0
     # via pystan
 httpx==0.27.2
     # via jupyterlab
-huggingface-hub==0.25.1
+huggingface-hub==0.25.2
     # via playground
 idna==3.10
     # via anyio
@@ -248,7 +248,7 @@ jsonschema==4.23.0
     # via jupyter-events
     # via jupyterlab-server
     # via nbformat
-jsonschema-specifications==2023.12.1
+jsonschema-specifications==2024.10.1
     # via jsonschema
 jupyter==1.1.1
     # via playground
@@ -329,7 +329,7 @@ markdown==3.7
     # via tensorboard
 markdown-it-py==3.0.0
     # via rich
-markupsafe==2.1.5
+markupsafe==3.0.1
     # via jinja2
     # via nbconvert
     # via werkzeug
@@ -574,6 +574,8 @@ prometheus-client==0.21.0
 prompt-toolkit==3.0.48
     # via ipython
     # via jupyter-console
+propcache==0.2.0
+    # via yarl
 protobuf==4.25.5
     # via tensorboard
     # via tensorflow
@@ -772,7 +774,7 @@ tensorboard-data-server==0.7.2
     # via tensorboard
 tensorflow==2.17.0
     # via playground
-termcolor==2.4.0
+termcolor==2.5.0
     # via tensorflow
 terminado==0.18.1
     # via jupyter-server
@@ -886,7 +888,7 @@ xarray==2024.9.0
     # via xarray-einstats
 xarray-einstats==0.8.0
     # via arviz
-yarl==1.13.1
+yarl==1.14.0
     # via aiohttp
 yfinance==0.2.44
     # via playground
