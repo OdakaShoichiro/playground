@@ -23,7 +23,7 @@ aiosignal==1.3.1
     # via aiohttp
 annotated-types==0.7.0
     # via pydantic
-anyio==4.6.2
+anyio==4.6.2.post1
     # via httpx
     # via jupyter-server
 appdirs==1.4.4
@@ -136,7 +136,7 @@ fastai==2.7.17
     # via fastsom
 fastai-category-encoders==0.0.4
     # via fastsom
-fastcore==1.7.15
+fastcore==1.7.19
     # via fastai
     # via fastdownload
 fastdownload==0.0.7
@@ -175,7 +175,7 @@ gast==0.6.0
     # via tensorflow
 google-pasta==0.2.0
     # via tensorflow
-grpcio==1.66.2
+grpcio==1.67.0
     # via tensorboard
     # via tensorflow
 h11==0.14.0
@@ -196,7 +196,7 @@ httpstan==4.13.0
     # via pystan
 httpx==0.27.2
     # via jupyterlab
-huggingface-hub==0.25.2
+huggingface-hub==0.26.0
     # via playground
 idna==3.10
     # via anyio
@@ -333,7 +333,7 @@ markupsafe==3.0.1
     # via jinja2
     # via nbconvert
     # via werkzeug
-marshmallow==3.22.0
+marshmallow==3.23.0
     # via httpstan
     # via webargs
 matplotlib==3.9.2
@@ -530,11 +530,11 @@ patito==0.6.2
 patsy==0.5.6
     # via category-encoders
     # via statsmodels
-peewee==3.17.6
+peewee==3.17.7
     # via yfinance
 pexpect==4.9.0
     # via ipython
-pillow==10.4.0
+pillow==11.0.0
     # via fastai
     # via matplotlib
     # via torchvision
@@ -579,7 +579,7 @@ propcache==0.2.0
 protobuf==4.25.5
     # via tensorboard
     # via tensorflow
-psutil==6.0.0
+psutil==6.1.0
     # via ipykernel
 ptyprocess==0.7.0
     # via pexpect
@@ -671,11 +671,11 @@ rich==13.9.2
 rpds-py==0.20.0
     # via jsonschema
     # via referencing
-ruff==0.6.9
+ruff==0.7.0
     # via playground
     # via python-lsp-ruff
     # via ruff-lsp
-ruff-lsp==0.0.57
+ruff-lsp==0.0.58
     # via playground
 scikit-learn==1.5.2
     # via category-encoders
@@ -708,7 +708,7 @@ seaborn==0.13.2
     # via playground
 send2trash==1.8.3
     # via jupyter-server
-setuptools==75.1.0
+setuptools==75.2.0
     # via arviz
     # via httpstan
     # via jupyterlab
@@ -888,7 +888,7 @@ xarray==2024.9.0
     # via xarray-einstats
 xarray-einstats==0.8.0
     # via arviz
-yarl==1.15.2
+yarl==1.15.4
     # via aiohttp
 yfinance==0.2.44
     # via playground

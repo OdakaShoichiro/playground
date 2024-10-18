@@ -7,9 +7,9 @@
     "@cspell/dict-data-science": "^2.0.5",
     "@cspell/dict-markdown": "^2.0.5",
     "@cspell/dict-scientific-terms-us": "^3.0.4",
-    "@cspell/dict-shell": "^1.0.9",
+    "@cspell/dict-shell": "^1.0.10",
     "@marp-team/marp-cli": "^4.0.0",
-    "cspell": "^8.15.2",
+    "cspell": "^8.15.4",
     "typescript": "^5.6.3"
   },
   "scripts": {
