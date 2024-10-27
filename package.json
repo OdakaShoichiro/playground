@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "@cspell/dict-data-science": "^2.0.5",
-    "@cspell/dict-markdown": "^2.0.5",
+    "@cspell/dict-markdown": "^2.0.7",
     "@cspell/dict-scientific-terms-us": "^3.0.4",
     "@cspell/dict-shell": "^1.0.10",
     "@marp-team/marp-cli": "^4.0.0",
