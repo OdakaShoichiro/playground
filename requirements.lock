@@ -116,7 +116,7 @@ cymem==2.0.10
     # via thinc
 cython==3.0.11
     # via pmdarima
-debugpy==1.8.9
+debugpy==1.8.10
     # via ipykernel
 decorator==5.1.1
     # via ipython
@@ -136,7 +136,7 @@ fastai==2.7.18
     # via fastsom
 fastai-category-encoders==0.0.4
     # via fastsom
-fastcore==1.7.23
+fastcore==1.7.26
     # via fastai
     # via fastdownload
 fastdownload==0.0.7
@@ -157,7 +157,7 @@ flaml==2.3.2
     # via functime
 flatbuffers==24.3.25
     # via tensorflow
-fonttools==4.55.2
+fonttools==4.55.3
     # via matplotlib
 fqdn==1.5.1
     # via jsonschema
@@ -194,9 +194,9 @@ httpcore==1.0.7
     # via httpx
 httpstan==4.13.0
     # via pystan
-httpx==0.28.0
+httpx==0.28.1
     # via jupyterlab
-huggingface-hub==0.26.3
+huggingface-hub==0.26.5
     # via playground
 idna==3.10
     # via anyio
@@ -223,7 +223,7 @@ ipywidgets==8.1.5
     # via jupyter
 isoduration==20.11.0
     # via jsonschema
-jax==0.4.36
+jax==0.4.37
     # via playground
 jaxlib==0.4.36
     # via jax
@@ -282,7 +282,7 @@ jupyter-server==2.14.2
     # via notebook-shim
 jupyter-server-terminals==0.5.3
     # via jupyter-server
-jupyterlab==4.3.2
+jupyterlab==4.3.3
     # via jupyter
     # via jupyterlab-lsp
     # via notebook
@@ -677,7 +677,7 @@ ruff==0.8.2
     # via ruff-lsp
 ruff-lsp==0.0.59
     # via playground
-scikit-learn==1.5.2
+scikit-learn==1.6.0
     # via category-encoders
     # via fastai
     # via functime
@@ -747,7 +747,7 @@ spacy-legacy==3.0.12
     # via spacy
 spacy-loggers==1.0.5
     # via spacy
-srsly==2.4.8
+srsly==2.5.0
     # via confection
     # via spacy
     # via thinc
