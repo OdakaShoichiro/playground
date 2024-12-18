@@ -47,7 +47,7 @@ astunparse==1.6.3
     # via tensorflow
 async-lru==2.0.4
     # via jupyterlab
-attrs==24.2.0
+attrs==24.3.0
     # via aiohttp
     # via cattrs
     # via jsonschema
@@ -62,7 +62,7 @@ black==24.10.0
     # via playground
 bleach==6.2.0
     # via nbconvert
-blis==0.7.11
+blis==1.1.0
     # via thinc
 cachetools==5.5.0
     # via pymc
@@ -153,7 +153,7 @@ filelock==3.16.1
     # via pytensor
     # via torch
     # via triton
-flaml==2.3.2
+flaml==2.3.3
     # via functime
 flatbuffers==24.3.25
     # via tensorflow
@@ -186,7 +186,7 @@ h5py==3.12.1
     # via h5netcdf
     # via keras
     # via tensorflow
-holidays==0.62
+holidays==0.63
     # via functime
 html5lib==1.1
     # via yfinance
@@ -196,7 +196,7 @@ httpstan==4.13.0
     # via pystan
 httpx==0.28.1
     # via jupyterlab
-huggingface-hub==0.26.5
+huggingface-hub==0.27.0
     # via playground
 idna==3.10
     # via anyio
@@ -223,9 +223,9 @@ ipywidgets==8.1.5
     # via jupyter
 isoduration==20.11.0
     # via jsonschema
-jax==0.4.37
+jax==0.4.38
     # via playground
-jaxlib==0.4.36
+jaxlib==0.4.38
     # via jax
 jedi==0.19.2
     # via ipython
@@ -268,7 +268,7 @@ jupyter-core==5.7.2
     # via nbclient
     # via nbconvert
     # via nbformat
-jupyter-events==0.10.0
+jupyter-events==0.11.0
     # via jupyter-server
 jupyter-lsp==2.2.5
     # via jupyterlab
@@ -282,7 +282,7 @@ jupyter-server==2.14.2
     # via notebook-shim
 jupyter-server-terminals==0.5.3
     # via jupyter-server
-jupyterlab==4.3.3
+jupyterlab==4.3.4
     # via jupyter
     # via jupyterlab-lsp
     # via notebook
@@ -396,6 +396,7 @@ nbformat==5.10.4
 nest-asyncio==1.6.0
     # via ipykernel
 networkx==3.4.2
+    # via playground
     # via torch
 notebook==7.3.1
     # via jupyter
@@ -576,7 +577,7 @@ prompt-toolkit==3.0.48
 propcache==0.2.1
     # via aiohttp
     # via yarl
-protobuf==5.29.1
+protobuf==5.29.2
     # via tensorboard
     # via tensorflow
 psutil==6.1.0
@@ -625,7 +626,7 @@ python-dateutil==2.9.0.post0
     # via jupyter-client
     # via matplotlib
     # via pandas
-python-json-logger==3.2.0
+python-json-logger==3.2.1
     # via jupyter-events
 python-lsp-jsonrpc==1.1.2
     # via python-lsp-server
@@ -735,13 +736,13 @@ six==1.17.0
     # via tensorflow
 sklearn==0.0.post12
     # via fastsom
-smart-open==7.0.5
+smart-open==7.1.0
     # via weasel
 sniffio==1.3.1
     # via anyio
 soupsieve==2.6
     # via beautifulsoup4
-spacy==3.7.5
+spacy==3.8.3
     # via fastai
 spacy-legacy==3.0.12
     # via spacy
@@ -775,7 +776,7 @@ termcolor==2.5.0
 terminado==0.18.1
     # via jupyter-server
     # via jupyter-server-terminals
-thinc==8.2.5
+thinc==8.3.3
     # via spacy
 threadpoolctl==3.5.0
     # via pymc
