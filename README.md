@@ -23,12 +23,9 @@ https://docs.nvidia.com/cuda/wsl-user-guide/index.html
 [setup-all.sh](setup/setup-all.sh) あるいはその中の各言語のセットアップコマンド・スクリプトを実行することでセットアップできます。
 各言語のランタイムは[mise](https://mise.jdx.dev/)で管理されています。
 
-なお、CaboChaについては以下の注意点があります。
-
-* ファイルサイズの大きいものについて、Googleドライブからスクリプトで取得できず、手動で取得したファイルをworkspaceに配置してワークアラウンドするスクリプトとなっています。
-* Python3.12以降では組み込みのimpモジュールが削除されるため、インストールスクリプトを手動で修正し差し替える必要があります。
-
 ## 起動
+
+VSCodeのJupyterの拡張機能での利用が可能な他、ブラウザで利用する場合は以下の手順に従ってください。
 
 [start-lab.sh](start-lab.sh) を実行し、ターミナルに表示される、以下のようなURLをブラウザに貼り付けて遷移してください。(トークン部分は実行ごとに可変)
 
@@ -36,4 +33,4 @@ https://docs.nvidia.com/cuda/wsl-user-guide/index.html
 http://127.0.0.1:8888/tree?token=d7a1adaabd11cc136262b0e121eea810d1699b0d8cbae5bf
 ```
 
-VSCode の Jupyter の拡張機能でもある程度の利用は可能です。
+Github Copilot 等の拡張機能を利用する場合は VSCode の Jupyter の拡張機能での利用を推奨します。
