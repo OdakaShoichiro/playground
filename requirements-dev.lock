@@ -84,7 +84,7 @@ cffi==1.17.1
     # via argon2-cffi-bindings
 charset-normalizer==3.4.0
     # via requests
-click==8.1.7
+click==8.1.8
     # via black
     # via typer
 clikit==0.6.2
@@ -230,7 +230,7 @@ jaxlib==0.4.38
 jedi==0.19.2
     # via ipython
     # via python-lsp-server
-jinja2==3.1.4
+jinja2==3.1.5
     # via jupyter-server
     # via jupyterlab
     # via jupyterlab-server
@@ -562,7 +562,7 @@ polars==0.20.31
     # via polars-ds
     # via polugins
     # via shirokumas
-polars-ds==0.6.2
+polars-ds==0.7.0
     # via playground
 polugins==0.5.1
     # via playground
@@ -850,7 +850,7 @@ unidic-lite==1.0.8
     # via playground
 uri-template==1.3.0
     # via jsonschema
-urllib3==2.2.3
+urllib3==2.3.0
     # via pmdarima
     # via requests
 wasabi==1.1.3
