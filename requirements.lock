@@ -82,7 +82,7 @@ certifi==2024.12.14
     # via requests
 cffi==1.17.1
     # via argon2-cffi-bindings
-charset-normalizer==3.4.0
+charset-normalizer==3.4.1
     # via requests
 click==8.1.8
     # via black
@@ -136,7 +136,7 @@ fastai==2.7.18
     # via fastsom
 fastai-category-encoders==0.0.4
     # via fastsom
-fastcore==1.7.27
+fastcore==1.7.28
     # via fastai
     # via fastdownload
 fastdownload==0.0.7
@@ -155,7 +155,7 @@ filelock==3.16.1
     # via triton
 flaml==2.3.3
     # via functime
-flatbuffers==24.3.25
+flatbuffers==24.12.23
     # via tensorflow
 fonttools==4.55.3
     # via matplotlib
@@ -288,7 +288,7 @@ jupyterlab==4.3.4
     # via notebook
 jupyterlab-code-formatter==3.0.2
     # via playground
-jupyterlab-language-pack-ja-jp==4.3.post0
+jupyterlab-language-pack-ja-jp==4.3.post1
     # via playground
 jupyterlab-lsp==5.1.0
     # via playground
@@ -301,7 +301,7 @@ jupyterlab-widgets==3.0.13
     # via ipywidgets
 keras==3.7.0
     # via tensorflow
-kiwisolver==1.4.7
+kiwisolver==1.4.8
     # via matplotlib
 kmeans-pytorch==0.3
     # via fastsom
