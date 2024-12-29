@@ -53,6 +53,7 @@ dependencies = [
     "unidic-lite>=1.0.8",
     "xarray>=2024.11.0",
     "yfinance>=0.2.51",
+    "pingouin>=0.5.5",
 ]
 
 [project.scripts]

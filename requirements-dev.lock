@@ -341,6 +341,7 @@ matplotlib==3.10.0
     # via fastai
     # via matplotlib-fontja
     # via mvgarch
+    # via pingouin
     # via playground
     # via seaborn
 matplotlib-fontja==1.0.0
@@ -423,6 +424,7 @@ numpy==1.26.4
     # via mvgarch
     # via pandas
     # via patsy
+    # via pingouin
     # via playground
     # via pmdarima
     # via pymc
@@ -510,6 +512,8 @@ pandas==2.2.3
     # via category-encoders
     # via fastai
     # via mvgarch
+    # via pandas-flavor
+    # via pingouin
     # via playground
     # via pmdarima
     # via pymc
@@ -517,6 +521,8 @@ pandas==2.2.3
     # via statsmodels
     # via xarray
     # via yfinance
+pandas-flavor==0.6.0
+    # via pingouin
 pandocfilters==1.5.1
     # via nbconvert
 parso==0.8.4
@@ -538,6 +544,8 @@ pillow==11.0.0
     # via fastai
     # via matplotlib
     # via torchvision
+pingouin==0.5.5
+    # via playground
 pip==24.3.1
     # via fastai
 platformdirs==4.3.6
@@ -682,6 +690,7 @@ scikit-learn==1.6.0
     # via category-encoders
     # via fastai
     # via functime
+    # via pingouin
     # via playground
     # via pmdarima
     # via shirokumas
@@ -696,6 +705,7 @@ scipy==1.14.1
     # via lightgbm
     # via mgarch
     # via mvgarch
+    # via pingouin
     # via playground
     # via pmdarima
     # via pymc
@@ -706,6 +716,7 @@ scipy==1.14.1
     # via xarray-einstats
 seaborn==0.13.2
     # via fastsom
+    # via pingouin
     # via playground
 send2trash==1.8.3
     # via jupyter-server
@@ -758,11 +769,14 @@ stack-data==0.6.3
 statsmodels==0.14.4
     # via arch
     # via category-encoders
+    # via pingouin
     # via playground
     # via pmdarima
 sympy==1.13.3
     # via playground
     # via torch
+tabulate==0.9.0
+    # via pingouin
 tenacity==9.0.0
     # via plotly
 tensorboard==2.18.0
@@ -882,6 +896,7 @@ wrapt==1.17.0
     # via tensorflow
 xarray==2024.11.0
     # via arviz
+    # via pandas-flavor
     # via playground
     # via xarray-einstats
 xarray-einstats==0.8.0
