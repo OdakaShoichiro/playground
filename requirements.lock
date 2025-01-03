@@ -357,7 +357,7 @@ mgarch==0.3.0
     # via playground
 minikanren==1.0.3
     # via pytensor
-mistune==3.0.2
+mistune==3.1.0
     # via nbconvert
 ml-dtypes==0.4.1
     # via jax
@@ -387,7 +387,7 @@ namex==0.0.8
     # via keras
 nbclient==0.10.2
     # via nbconvert
-nbconvert==7.16.4
+nbconvert==7.16.5
     # via jupyter
     # via jupyter-server
 nbformat==5.10.4
@@ -540,7 +540,7 @@ peewee==3.17.8
     # via yfinance
 pexpect==4.9.0
     # via ipython
-pillow==11.0.0
+pillow==11.1.0
     # via fastai
     # via matplotlib
     # via torchvision
@@ -618,7 +618,7 @@ pylev==1.4.0
     # via clikit
 pymc==5.19.1
     # via playground
-pyparsing==3.2.0
+pyparsing==3.2.1
     # via matplotlib
 pyper==1.1.2
     # via playground
@@ -680,7 +680,7 @@ rich==13.9.4
 rpds-py==0.22.3
     # via jsonschema
     # via referencing
-ruff==0.8.4
+ruff==0.8.5
     # via playground
     # via python-lsp-ruff
     # via ruff-lsp
@@ -796,7 +796,7 @@ threadpoolctl==3.5.0
     # via pymc
     # via scikit-learn
 tinycss2==1.4.0
-    # via nbconvert
+    # via bleach
 tomli==2.2.1
     # via polugins
 toolz==1.0.0
