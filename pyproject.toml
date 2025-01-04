@@ -43,7 +43,7 @@ dependencies = [
     "ruff-lsp>=0.0.58",
     "ruff>=0.8.5",
     "scikit-learn>=1.6.0",
-    "scipy>=1.14.1",
+    "scipy>=1.15.0",
     "seaborn>=0.13.2",
     "shirokumas>=0.0.3",
     "statsmodels>=0.14.4",
@@ -51,7 +51,7 @@ dependencies = [
     "tensorflow>=2.18.0",
     "torch>=2.4.1",
     "unidic-lite>=1.0.8",
-    "xarray>=2024.11.0",
+    "xarray>=2025.1.0",
     "yfinance>=0.2.51",
     "pingouin>=0.5.5",
 ]

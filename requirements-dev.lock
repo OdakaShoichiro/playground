@@ -333,7 +333,7 @@ markupsafe==3.0.2
     # via jinja2
     # via nbconvert
     # via werkzeug
-marshmallow==3.23.2
+marshmallow==3.23.3
     # via httpstan
     # via webargs
 matplotlib==3.10.0
@@ -694,7 +694,7 @@ scikit-learn==1.6.0
     # via playground
     # via pmdarima
     # via shirokumas
-scipy==1.14.1
+scipy==1.15.0
     # via arch
     # via arviz
     # via category-encoders
@@ -894,7 +894,7 @@ widgetsnbextension==4.0.13
 wrapt==1.17.0
     # via smart-open
     # via tensorflow
-xarray==2024.11.0
+xarray==2025.1.0
     # via arviz
     # via pandas-flavor
     # via playground
