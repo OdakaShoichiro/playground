@@ -4,7 +4,7 @@ _.python.venv = "/workspace/.venv"
 
 [tools]
 julia = "1.11.3"
-node = "23.7.0"
+node = "23.8.0"
 pandoc = "3.6.3"
 python = "3.13.2"
 r = '4.4.2'

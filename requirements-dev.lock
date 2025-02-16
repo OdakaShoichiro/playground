@@ -188,8 +188,6 @@ h5py==3.12.1
     # via tensorflow
 holidays==0.66
     # via functime
-html5lib==1.1
-    # via yfinance
 httpcore==1.0.7
     # via httpx
 httpstan==4.13.0
@@ -288,7 +286,7 @@ jupyterlab==4.3.5
     # via notebook
 jupyterlab-code-formatter==3.0.2
     # via playground
-jupyterlab-language-pack-ja-jp==4.3.post1
+jupyterlab-language-pack-ja-jp==4.3.post2
     # via playground
 jupyterlab-lsp==5.1.0
     # via playground
@@ -311,7 +309,7 @@ language-data==1.3.0
     # via langcodes
 libclang==18.1.1
     # via tensorflow
-lightgbm==4.5.0
+lightgbm==4.6.0
     # via playground
 logical-unification==0.4.6
     # via cons
@@ -321,8 +319,6 @@ lsprotocol==2023.0.1
     # via pygls
     # via python-lsp-ruff
     # via ruff-lsp
-lxml==5.3.1
-    # via yfinance
 marisa-trie==1.2.1
     # via language-data
 markdown==3.7
@@ -344,7 +340,7 @@ matplotlib==3.10.0
     # via pingouin
     # via playground
     # via seaborn
-matplotlib-fontja==1.0.0
+matplotlib-fontja==1.0.1
     # via playground
 matplotlib-inline==0.1.7
     # via ipykernel
@@ -591,7 +587,7 @@ propcache==0.2.1
 protobuf==5.29.3
     # via tensorboard
     # via tensorflow
-psutil==6.1.1
+psutil==7.0.0
     # via ipykernel
 ptyprocess==0.7.0
     # via pexpect
@@ -743,7 +739,6 @@ shirokumas==0.0.3
 six==1.17.0
     # via astunparse
     # via google-pasta
-    # via html5lib
     # via python-dateutil
     # via rfc3339-validator
     # via tensorboard
@@ -884,7 +879,6 @@ webcolors==24.11.1
     # via jsonschema
 webencodings==0.5.1
     # via bleach
-    # via html5lib
     # via tinycss2
 websocket-client==1.8.0
     # via jupyter-server
@@ -906,5 +900,5 @@ xarray-einstats==0.8.0
     # via arviz
 yarl==1.18.3
     # via aiohttp
-yfinance==0.2.52
+yfinance==0.2.53
     # via playground
