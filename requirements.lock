@@ -64,7 +64,7 @@ bleach==6.2.0
     # via nbconvert
 blis==1.2.0
     # via thinc
-cachetools==5.5.1
+cachetools==5.5.2
     # via pymc
 catalogue==2.0.10
     # via spacy
@@ -118,7 +118,7 @@ cython==3.0.12
     # via pmdarima
 debugpy==1.8.12
     # via ipykernel
-decorator==5.1.1
+decorator==5.2.0
     # via ipython
 defusedxml==0.7.1
     # via nbconvert
@@ -153,7 +153,7 @@ filelock==3.17.0
     # via pytensor
     # via torch
     # via triton
-flaml==2.3.3
+flaml==2.3.4
     # via functime
 flatbuffers==25.2.10
     # via tensorflow
@@ -182,11 +182,11 @@ h11==0.14.0
     # via httpcore
 h5netcdf==1.5.0
     # via arviz
-h5py==3.12.1
+h5py==3.13.0
     # via h5netcdf
     # via keras
     # via tensorflow
-holidays==0.66
+holidays==0.67
     # via functime
 httpcore==1.0.7
     # via httpx
@@ -194,7 +194,7 @@ httpstan==4.13.0
     # via pystan
 httpx==0.28.1
     # via jupyterlab
-huggingface-hub==0.28.1
+huggingface-hub==0.29.1
     # via playground
 idna==3.10
     # via anyio
@@ -214,7 +214,7 @@ ipyvue==1.11.2
     # via ipyvuetify
 ipyvuetable==0.7.16
     # via playground
-ipyvuetify==1.10.0
+ipyvuetify==1.11.0
     # via ipyvuetable
 ipywidgets==8.1.5
     # via ipyvue
@@ -353,7 +353,7 @@ mgarch==0.3.0
     # via playground
 minikanren==1.0.3
     # via pytensor
-mistune==3.1.1
+mistune==3.1.2
     # via nbconvert
 ml-dtypes==0.4.1
     # via jax
@@ -381,7 +381,7 @@ mypy-extensions==1.0.0
     # via black
 namex==0.0.8
     # via keras
-narwhals==1.26.0
+narwhals==1.27.1
     # via plotly
 nbclient==0.10.2
     # via nbconvert
@@ -581,7 +581,7 @@ prometheus-client==0.21.1
 prompt-toolkit==3.0.50
     # via ipython
     # via jupyter-console
-propcache==0.2.1
+propcache==0.3.0
     # via aiohttp
     # via yarl
 protobuf==5.29.3
@@ -594,7 +594,7 @@ ptyprocess==0.7.0
     # via terminado
 pure-eval==0.2.3
     # via stack-data
-pyarrow==19.0.0
+pyarrow==19.0.1
     # via playground
 pycparser==2.22
     # via cffi
@@ -676,10 +676,10 @@ rich==13.9.4
     # via keras
     # via pymc
     # via typer
-rpds-py==0.22.3
+rpds-py==0.23.1
     # via jsonschema
     # via referencing
-ruff==0.9.6
+ruff==0.9.7
     # via playground
     # via python-lsp-ruff
     # via ruff-lsp
@@ -693,7 +693,7 @@ scikit-learn==1.6.1
     # via playground
     # via pmdarima
     # via shirokumas
-scipy==1.15.1
+scipy==1.15.2
     # via arch
     # via arviz
     # via category-encoders
@@ -900,5 +900,5 @@ xarray-einstats==0.8.0
     # via arviz
 yarl==1.18.3
     # via aiohttp
-yfinance==0.2.53
+yfinance==0.2.54
     # via playground
