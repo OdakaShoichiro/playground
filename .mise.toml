@@ -3,7 +3,7 @@ NODE_ENV = 'development'
 _.python.venv = "/workspace/.venv"
 
 [tools]
-julia = "1.11.3"
+julia = "1.11.4"
 node = "23.9.0"
 pandoc = "3.6.3"
 python = "3.13.2"
