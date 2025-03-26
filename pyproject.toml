@@ -16,7 +16,7 @@ dependencies = [
     "jax>=0.5.0",
     "jupyter>=1.1.1",
     "jupyterlab-code-formatter>=3.0.2",
-    "jupyterlab-language-pack-ja-jp>=4.3.post2",
+    "jupyterlab-language-pack-ja-jp>=4.3.post3",
     "jupyterlab-lsp>=5.1.0",
     "lightgbm>=4.6.0",
     "matplotlib-fontja>=1.0.1",
@@ -30,7 +30,7 @@ dependencies = [
     "pandas>=2.2.3",
     "patito>=0.6.2",
     "pingouin>=0.5.5",
-    "plotly>=6.0.0",
+    "plotly>=6.0.1",
     "polarify>=0.2.0",
     "polars-ds>=0.7.0",
     "polars>=0.20.31",
@@ -42,7 +42,7 @@ dependencies = [
     "python-lsp-ruff>=2.2.2",
     "python-lsp-server>=1.11.0",
     "ruff-lsp>=0.0.62",
-    "ruff>=0.9.10",
+    "ruff>=0.11.2",
     "scikit-learn>=1.6.1",
     "scipy>=1.15.2",
     "seaborn>=0.13.2",
@@ -52,8 +52,8 @@ dependencies = [
     "tensorflow>=2.19.0",
     "torch>=2.4.1",
     "unidic-lite>=1.0.8",
-    "xarray>=2025.1.2",
-    "yfinance>=0.2.54",
+    "xarray>=2025.3.0",
+    "yfinance>=0.2.55",
 ]
 
 [project.scripts]
