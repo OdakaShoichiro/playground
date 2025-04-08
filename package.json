@@ -4,13 +4,13 @@
   "description": "Playground",
   "main": "index.js",
   "dependencies": {
-    "@cspell/dict-data-science": "^2.0.7",
-    "@cspell/dict-markdown": "^2.0.9",
+    "@cspell/dict-data-science": "^2.0.8",
+    "@cspell/dict-markdown": "^2.0.10",
     "@cspell/dict-scientific-terms-us": "^3.0.6",
     "@cspell/dict-shell": "^1.1.0",
     "@marp-team/marp-cli": "^4.1.2",
-    "cspell": "^8.17.5",
-    "typescript": "^5.8.2"
+    "cspell": "^8.18.1",
+    "typescript": "^5.8.3"
   },
   "scripts": {
     "cspell": "cspell lint -r /workspace -c /workspace/cspell.yml *"
