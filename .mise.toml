@@ -5,15 +5,13 @@ _.python.venv = "/workspace/.venv"
 [tools]
 julia = "1.11.4"
 node = "23.11.0"
-pandoc = "3.6.4"
-python = "3.13.2"
-r = "4.4.3"
+python = "3.13.3"
+r = "4.5.0"
 rust = "1.86.0"
 rye = "0.44.0"
 
 [alias]
 julia = 'https://github.com/rkyleg/asdf-julia.git'
-pandoc = 'https://github.com/Fbrisset/asdf-pandoc.git'
 r = 'https://github.com/asdf-community/asdf-r.git'
 rye = 'https://github.com/Azuki-bar/asdf-rye'
 

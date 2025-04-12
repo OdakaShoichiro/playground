@@ -24,11 +24,12 @@ RUN apt update && \
     fonts-ipafont \
     gfortran \
     git \
-    libbz2-dev \
     libblas-dev \
+    libbz2-dev \
     libcurl4-openssl-dev \
     libfontconfig1-dev \
     libfribidi-dev\
+    libglpk-dev \
     libharfbuzz-dev \
     liblapack-dev \
     libmecab-dev \
@@ -38,8 +39,10 @@ RUN apt update && \
     libx11-dev \
     libxml2-dev \
     libxt-dev \
+    libzmq3-dev \
     mecab \
     mecab-ipadic-utf8 \
+    pandoc \
     software-properties-common \
     sudo \
     swig \

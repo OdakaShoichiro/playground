@@ -116,7 +116,7 @@ cymem==2.0.11
     # via thinc
 cython==3.0.12
     # via pmdarima
-debugpy==1.8.13
+debugpy==1.8.14
     # via ipykernel
 decorator==5.2.1
     # via ipython
@@ -188,13 +188,13 @@ h5py==3.13.0
     # via tensorflow
 holidays==0.70
     # via functime
-httpcore==1.0.7
+httpcore==1.0.8
     # via httpx
 httpstan==4.13.0
     # via pystan
 httpx==0.28.1
     # via jupyterlab
-huggingface-hub==0.30.1
+huggingface-hub==0.30.2
     # via playground
 idna==3.10
     # via anyio
@@ -220,7 +220,7 @@ ipyvuetable==0.7.20
     # via playground
 ipyvuetify==1.11.1
     # via ipyvuetable
-ipywidgets==8.1.5
+ipywidgets==8.1.6
     # via ipyvue
     # via jupyter
 isoduration==20.11.0
@@ -284,7 +284,7 @@ jupyter-server==2.15.0
     # via notebook-shim
 jupyter-server-terminals==0.5.3
     # via jupyter-server
-jupyterlab==4.3.6
+jupyterlab==4.4.0
     # via jupyter
     # via jupyterlab-lsp
     # via notebook
@@ -299,7 +299,7 @@ jupyterlab-pygments==0.3.0
 jupyterlab-server==2.27.3
     # via jupyterlab
     # via notebook
-jupyterlab-widgets==3.0.13
+jupyterlab-widgets==3.0.14
     # via ipywidgets
 keras==3.9.2
     # via tensorflow
@@ -325,7 +325,7 @@ lsprotocol==2023.0.1
     # via ruff-lsp
 marisa-trie==1.2.1
     # via language-data
-markdown==3.7
+markdown==3.8
     # via tensorboard
 markdown-it-py==3.0.0
     # via rich
@@ -366,7 +366,7 @@ ml-dtypes==0.5.1
     # via tensorflow
 mpmath==1.3.0
     # via sympy
-multidict==6.3.2
+multidict==6.4.3
     # via aiohttp
     # via yarl
 multipledispatch==1.0.0
@@ -385,7 +385,7 @@ mypy-extensions==1.0.0
     # via black
 namex==0.0.8
     # via keras
-narwhals==1.34.0
+narwhals==1.34.1
     # via plotly
 nbclient==0.10.2
     # via nbconvert
@@ -401,7 +401,7 @@ nest-asyncio==1.6.0
 networkx==3.4.2
     # via playground
     # via torch
-notebook==7.3.3
+notebook==7.4.0
     # via jupyter
 notebook-shim==0.2.4
     # via jupyterlab
@@ -524,7 +524,7 @@ pandas==2.2.3
     # via statsmodels
     # via xarray
     # via yfinance
-pandas-flavor==0.6.0
+pandas-flavor==0.7.0
     # via pingouin
 pandocfilters==1.5.1
     # via nbconvert
@@ -602,7 +602,7 @@ pyarrow==19.0.1
     # via playground
 pycparser==2.22
     # via cffi
-pydantic==2.11.2
+pydantic==2.11.3
     # via confection
     # via patito
     # via spacy
@@ -630,7 +630,7 @@ pysimdjson==6.0.2
     # via pystan
 pystan==3.10.0
     # via playground
-pytensor==2.30.2
+pytensor==2.30.3
     # via pymc
 python-dateutil==2.9.0.post0
     # via arrow
@@ -684,7 +684,7 @@ rich==14.0.0
 rpds-py==0.24.0
     # via jsonschema
     # via referencing
-ruff==0.11.4
+ruff==0.11.5
     # via playground
     # via python-lsp-ruff
     # via ruff-lsp
@@ -842,7 +842,7 @@ typer==0.15.2
     # via weasel
 types-python-dateutil==2.9.0.20241206
     # via arrow
-typing-extensions==4.13.1
+typing-extensions==4.13.2
     # via anyio
     # via arviz
     # via beautifulsoup4
@@ -871,7 +871,7 @@ unidic-lite==1.0.8
     # via playground
 uri-template==1.3.0
     # via jsonschema
-urllib3==2.3.0
+urllib3==2.4.0
     # via pmdarima
     # via requests
 wasabi==1.1.3
@@ -895,7 +895,7 @@ werkzeug==3.1.3
     # via tensorboard
 wheel==0.45.1
     # via astunparse
-widgetsnbextension==4.0.13
+widgetsnbextension==4.0.14
     # via ipywidgets
 wrapt==1.17.2
     # via smart-open
