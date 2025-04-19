@@ -55,7 +55,9 @@ attrs==25.3.0
     # via referencing
 babel==2.17.0
     # via jupyterlab-server
-beautifulsoup4==4.13.3
+beartype==0.20.2
+    # via plum-dispatch
+beautifulsoup4==4.13.4
     # via nbconvert
     # via yfinance
 black==25.1.0
@@ -92,6 +94,7 @@ clikit==0.6.2
 cloudpathlib==0.21.0
     # via weasel
 cloudpickle==3.1.1
+    # via fastai
     # via functime
     # via pymc
 comm==0.2.2
@@ -104,7 +107,7 @@ cons==0.4.6
     # via etuples
     # via minikanren
     # via pytensor
-contourpy==1.3.1
+contourpy==1.3.2
     # via matplotlib
 crashtest==0.3.1
     # via clikit
@@ -131,14 +134,15 @@ etuples==0.3.9
     # via pytensor
 executing==2.2.0
     # via stack-data
-fastai==2.7.19
+fastai==2.8.1
     # via fastai-category-encoders
     # via fastsom
 fastai-category-encoders==0.0.4
     # via fastsom
-fastcore==1.7.29
+fastcore==1.8.1
     # via fastai
     # via fastdownload
+    # via fasttransform
 fastdownload==0.0.7
     # via fastai
 fastjsonschema==2.21.1
@@ -148,6 +152,8 @@ fastprogress==1.0.3
     # via fastdownload
 fastsom==1.0.2
     # via playground
+fasttransform==0.0.2
+    # via fastai
 filelock==3.18.0
     # via huggingface-hub
     # via pytensor
@@ -163,7 +169,7 @@ fqdn==1.5.1
     # via jsonschema
 frozendict==2.4.6
     # via yfinance
-frozenlist==1.5.0
+frozenlist==1.6.0
     # via aiohttp
     # via aiosignal
 fsspec==2025.3.2
@@ -225,9 +231,9 @@ ipywidgets==8.1.6
     # via jupyter
 isoduration==20.11.0
     # via jsonschema
-jax==0.5.3
+jax==0.6.0
     # via playground
-jaxlib==0.5.3
+jaxlib==0.6.0
     # via jax
 jedi==0.19.2
     # via ipython
@@ -385,7 +391,7 @@ mypy-extensions==1.0.0
     # via black
 namex==0.0.8
     # via keras
-narwhals==1.34.1
+narwhals==1.35.0
     # via plotly
 nbclient==0.10.2
     # via nbconvert
@@ -481,7 +487,7 @@ optree==0.15.0
     # via keras
 overrides==7.7.0
     # via jupyter-server
-packaging==24.2
+packaging==25.0
     # via arviz
     # via black
     # via fastai
@@ -543,7 +549,7 @@ peewee==3.17.9
     # via yfinance
 pexpect==4.9.0
     # via ipython
-pillow==11.1.0
+pillow==11.2.1
     # via fastai
     # via matplotlib
     # via torchvision
@@ -560,6 +566,9 @@ plotly==6.0.1
     # via playground
 pluggy==1.5.0
     # via python-lsp-server
+plum-dispatch==2.5.7
+    # via fastai
+    # via fasttransform
 pmdarima==2.0.4
     # via mvgarch
 polarify==0.2.0
@@ -582,7 +591,7 @@ preshed==3.0.9
     # via thinc
 prometheus-client==0.21.1
     # via jupyter-server
-prompt-toolkit==3.0.50
+prompt-toolkit==3.0.51
     # via ipython
     # via jupyter-console
 propcache==0.3.1
@@ -679,12 +688,13 @@ rfc3986-validator==0.1.1
     # via jupyter-events
 rich==14.0.0
     # via keras
+    # via plum-dispatch
     # via pymc
     # via typer
 rpds-py==0.24.0
     # via jsonschema
     # via referencing
-ruff==0.11.5
+ruff==0.11.6
     # via playground
     # via python-lsp-ruff
     # via ruff-lsp
@@ -850,6 +860,7 @@ typing-extensions==4.13.2
     # via huggingface-hub
     # via optree
     # via patito
+    # via plum-dispatch
     # via polugins
     # via pydantic
     # via pydantic-core
@@ -882,7 +893,7 @@ wcwidth==0.2.13
     # via prompt-toolkit
 weasel==0.4.1
     # via spacy
-webargs==8.6.0
+webargs==8.7.0
     # via httpstan
 webcolors==24.11.1
     # via jsonschema
@@ -907,7 +918,7 @@ xarray==2025.3.1
     # via xarray-einstats
 xarray-einstats==0.8.0
     # via arviz
-yarl==1.19.0
+yarl==1.20.0
     # via aiohttp
 yfinance==0.2.55
     # via playground
