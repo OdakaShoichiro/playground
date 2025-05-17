@@ -2,6 +2,7 @@
 
 # mise
 mise trust -y
+mise settings add idiomatic_version_file_enable_tools "[]"
 mise install -y
 
 # Python

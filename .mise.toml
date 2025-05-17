@@ -4,10 +4,10 @@ _.python.venv = "/workspace/.venv"
 
 [tools]
 julia = "1.11.5"
-node = "23.11.0"
+node = "24.0.2"
 python = "3.13.3"
 r = "4.5.0"
-rust = "1.86.0"
+rust = "1.87.0"
 rye = "0.44.0"
 
 [alias]
