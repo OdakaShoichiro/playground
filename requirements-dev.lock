@@ -10,13 +10,13 @@
 #   universal: false
 
 -e file:.
-absl-py==2.2.2
+absl-py==2.3.0
     # via keras
     # via tensorboard
     # via tensorflow
 aiohappyeyeballs==2.6.1
     # via aiohttp
-aiohttp==3.11.18
+aiohttp==3.12.4
     # via httpstan
     # via pystan
 aiosignal==1.3.2
@@ -55,6 +55,8 @@ attrs==25.3.0
     # via referencing
 babel==2.17.0
     # via jupyterlab-server
+beartype==0.21.0
+    # via plum-dispatch
 beautifulsoup4==4.13.4
     # via nbconvert
     # via yfinance
@@ -64,7 +66,7 @@ bleach==6.2.0
     # via nbconvert
 blis==1.3.0
     # via thinc
-cachetools==5.5.2
+cachetools==6.0.0
     # via pymc
 catalogue==2.0.10
     # via spacy
@@ -86,7 +88,7 @@ cffi==1.17.1
     # via curl-cffi
 charset-normalizer==3.4.2
     # via requests
-click==8.2.0
+click==8.2.1
     # via black
     # via typer
 clikit==0.6.2
@@ -94,6 +96,7 @@ clikit==0.6.2
 cloudpathlib==0.21.1
     # via weasel
 cloudpickle==3.1.1
+    # via fastai
     # via pymc
 comm==0.2.2
     # via ipykernel
@@ -117,7 +120,7 @@ cymem==2.0.11
     # via preshed
     # via spacy
     # via thinc
-cython==3.1.0
+cython==3.1.1
     # via pmdarima
 debugpy==1.8.14
     # via ipykernel
@@ -134,26 +137,33 @@ etuples==0.3.9
     # via pytensor
 executing==2.2.0
     # via stack-data
-fastai==2.1.10
+fastai==2.8.2
     # via fastai-category-encoders
     # via fastsom
 fastai-category-encoders==0.0.4
     # via fastsom
 fastcore==1.8.2
     # via fastai
+    # via fastdownload
+    # via fasttransform
+fastdownload==0.0.7
+    # via fastai
 fastjsonschema==2.21.1
     # via nbformat
 fastprogress==1.0.3
     # via fastai
+    # via fastdownload
 fastsom==1.0.2
     # via playground
+fasttransform==0.0.2
+    # via fastai
 filelock==3.18.0
     # via huggingface-hub
     # via pytensor
     # via torch
 flatbuffers==25.2.10
     # via tensorflow
-fonttools==4.58.0
+fonttools==4.58.1
     # via matplotlib
 fqdn==1.5.1
     # via jsonschema
@@ -162,7 +172,7 @@ frozendict==2.4.6
 frozenlist==1.6.0
     # via aiohttp
     # via aiosignal
-fsspec==2025.3.2
+fsspec==2025.5.1
     # via huggingface-hub
     # via torch
 gast==0.6.0
@@ -180,13 +190,15 @@ h5py==3.13.0
     # via h5netcdf
     # via keras
     # via tensorflow
+hf-xet==1.1.2
+    # via huggingface-hub
 httpcore==1.0.9
     # via httpx
 httpstan==4.13.0
     # via pystan
 httpx==0.28.1
     # via jupyterlab
-huggingface-hub==0.31.2
+huggingface-hub==0.32.3
     # via playground
 idna==3.10
     # via anyio
@@ -217,9 +229,9 @@ ipywidgets==8.1.7
     # via jupyter
 isoduration==20.11.0
     # via jsonschema
-jax==0.6.0
+jax==0.6.1
     # via playground
-jaxlib==0.6.0
+jaxlib==0.6.1
     # via jax
 jedi==0.19.2
     # via ipython
@@ -231,14 +243,14 @@ jinja2==3.1.6
     # via nbconvert
     # via spacy
     # via torch
-joblib==1.5.0
+joblib==1.5.1
     # via pmdarima
     # via scikit-learn
 json5==0.12.0
     # via jupyterlab-server
 jsonpointer==3.0.0
     # via jsonschema
-jsonschema==4.23.0
+jsonschema==4.24.0
     # via jupyter-events
     # via jupyterlab-server
     # via nbformat
@@ -253,7 +265,7 @@ jupyter-client==8.6.3
     # via nbclient
 jupyter-console==6.6.3
     # via jupyter
-jupyter-core==5.7.2
+jupyter-core==5.8.1
     # via ipykernel
     # via jupyter-client
     # via jupyter-console
@@ -276,7 +288,7 @@ jupyter-server==2.16.0
     # via notebook-shim
 jupyter-server-terminals==0.5.3
     # via jupyter-server
-jupyterlab==4.4.2
+jupyterlab==4.4.3
     # via jupyter
     # via jupyterlab-lsp
     # via notebook
@@ -284,7 +296,7 @@ jupyterlab-code-formatter==3.0.2
     # via playground
 jupyterlab-language-pack-ja-jp==4.4.post0
     # via playground
-jupyterlab-lsp==5.1.0
+jupyterlab-lsp==5.1.1
     # via playground
 jupyterlab-pygments==0.3.0
     # via nbconvert
@@ -293,7 +305,7 @@ jupyterlab-server==2.27.3
     # via notebook
 jupyterlab-widgets==3.0.15
     # via ipywidgets
-keras==3.9.2
+keras==3.10.0
     # via tensorflow
 kiwisolver==1.4.8
     # via matplotlib
@@ -358,7 +370,7 @@ ml-dtypes==0.5.1
     # via tensorflow
 mpmath==1.3.0
     # via sympy
-multidict==6.4.3
+multidict==6.4.4
     # via aiohttp
     # via yarl
 multipledispatch==1.0.0
@@ -367,7 +379,7 @@ multipledispatch==1.0.0
     # via minikanren
 multitasking==0.0.11
     # via yfinance
-murmurhash==1.0.12
+murmurhash==1.0.13
     # via preshed
     # via spacy
     # via thinc
@@ -375,9 +387,9 @@ mvgarch==1.2.4
     # via playground
 mypy-extensions==1.1.0
     # via black
-namex==0.0.9
+namex==0.1.0
     # via keras
-narwhals==1.39.1
+narwhals==1.41.0
     # via plotly
 nbclient==0.10.2
     # via nbconvert
@@ -390,10 +402,10 @@ nbformat==5.10.4
     # via nbconvert
 nest-asyncio==1.6.0
     # via ipykernel
-networkx==3.4.2
+networkx==3.5
     # via playground
     # via torch
-notebook==7.4.2
+notebook==7.4.3
     # via jupyter
 notebook-shim==0.2.4
     # via jupyterlab
@@ -473,7 +485,7 @@ openpyxl==3.1.5
 opt-einsum==3.4.0
     # via jax
     # via tensorflow
-optree==0.15.0
+optree==0.16.0
     # via keras
 overrides==7.7.0
     # via jupyter-server
@@ -551,16 +563,19 @@ platformdirs==4.3.8
     # via black
     # via jupyter-core
     # via yfinance
-plotly==6.1.0
+plotly==6.1.2
     # via fastsom
     # via playground
 pluggy==1.6.0
     # via python-lsp-server
+plum-dispatch==2.5.7
+    # via fastai
+    # via fasttransform
 pmdarima==2.0.4
     # via mvgarch
 polarify==0.2.1
     # via playground
-polars==1.29.0
+polars==1.30.0
     # via ipyvuetable
     # via patito
     # via playground
@@ -568,11 +583,11 @@ polars==1.29.0
     # via polars-ds
     # via polugins
     # via shirokumas
-polars-ds==0.8.3
+polars-ds==0.9.0
     # via playground
 polugins==0.5.1
     # via playground
-preshed==3.0.9
+preshed==3.0.10
     # via spacy
     # via thinc
 prometheus-client==0.22.0
@@ -583,7 +598,7 @@ prompt-toolkit==3.0.51
 propcache==0.3.1
     # via aiohttp
     # via yarl
-protobuf==5.29.4
+protobuf==5.29.5
     # via tensorboard
     # via tensorflow
     # via yfinance
@@ -598,7 +613,7 @@ pyarrow==20.0.0
     # via playground
 pycparser==2.22
     # via cffi
-pydantic==2.11.4
+pydantic==2.11.5
     # via confection
     # via patito
     # via spacy
@@ -616,7 +631,7 @@ pygments==2.19.1
     # via rich
 pylev==1.4.0
     # via clikit
-pymc==5.22.0
+pymc==5.23.0
     # via playground
 pyparsing==3.2.3
     # via matplotlib
@@ -626,7 +641,7 @@ pysimdjson==6.0.2
     # via pystan
 pystan==3.10.0
     # via playground
-pytensor==2.30.3
+pytensor==2.31.2
     # via pymc
 python-dateutil==2.9.0.post0
     # via arrow
@@ -674,12 +689,13 @@ rfc3986-validator==0.1.1
     # via jupyter-events
 rich==14.0.0
     # via keras
+    # via plum-dispatch
     # via pymc
     # via typer
-rpds-py==0.25.0
+rpds-py==0.25.1
     # via jsonschema
     # via referencing
-ruff==0.11.10
+ruff==0.11.12
     # via playground
     # via python-lsp-ruff
     # via ruff-lsp
@@ -717,7 +733,7 @@ seaborn==0.13.2
     # via playground
 send2trash==1.8.3
     # via jupyter-server
-setuptools==80.7.1
+setuptools==80.9.0
     # via arviz
     # via httpstan
     # via jupyterlab
@@ -750,7 +766,7 @@ sniffio==1.3.1
     # via anyio
 soupsieve==2.7
     # via beautifulsoup4
-spacy==3.8.4
+spacy==3.8.7
     # via fastai
 spacy-legacy==3.0.12
     # via spacy
@@ -803,7 +819,7 @@ torch==2.7.0
     # via torchvision
 torchvision==0.22.0
     # via fastai
-tornado==6.5
+tornado==6.5.1
     # via ipykernel
     # via jupyter-client
     # via jupyter-server
@@ -830,7 +846,7 @@ traitlets==5.14.3
     # via nbformat
 triton==3.3.0
     # via torch
-typer==0.15.3
+typer==0.16.0
     # via spacy
     # via weasel
 types-python-dateutil==2.9.0.20250516
@@ -843,6 +859,7 @@ typing-extensions==4.13.2
     # via huggingface-hub
     # via optree
     # via patito
+    # via plum-dispatch
     # via polugins
     # via pydantic
     # via pydantic-core
@@ -853,7 +870,7 @@ typing-extensions==4.13.2
     # via torch
     # via typer
     # via typing-inspection
-typing-inspection==0.4.0
+typing-inspection==0.4.1
     # via pydantic
 tzdata==2025.2
     # via pandas
@@ -900,11 +917,11 @@ xarray==2025.4.0
     # via pandas-flavor
     # via playground
     # via xarray-einstats
-xarray-einstats==0.8.0
+xarray-einstats==0.9.0
     # via arviz
 yarl==1.20.0
     # via aiohttp
 yfinance==0.2.61
     # via playground
-zipp==3.21.0
+zipp==3.22.0
     # via importlib-metadata
