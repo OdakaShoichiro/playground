@@ -8,7 +8,7 @@
     "@cspell/dict-markdown": "^2.0.12",
     "@cspell/dict-scientific-terms-us": "^3.0.8",
     "@cspell/dict-shell": "^1.1.1",
-    "@marp-team/marp-cli": "^4.2.2",
+    "@marp-team/marp-cli": "^4.2.3",
     "cspell": "^9.2.0",
     "typescript": "^5.9.2"
   },
