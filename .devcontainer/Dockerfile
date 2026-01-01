@@ -1,4 +1,4 @@
-FROM nvidia/cuda:13.0.0-cudnn-devel-ubuntu24.04
+FROM nvidia/cuda:13.0.2-cudnn-devel-ubuntu24.04
 
 ARG UNAME=odakas
 ARG UID=2000
