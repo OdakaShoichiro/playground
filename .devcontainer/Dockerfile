@@ -1,4 +1,8 @@
-FROM nvidia/cuda:13.0.2-cudnn-devel-ubuntu24.04
+ARG BASE_IMAGE=ubuntu:24.04
+FROM ${BASE_IMAGE}
+
+ARG GPU_ENABLED=false
+ENV GPU_ENABLED="${GPU_ENABLED}"
 
 ARG UNAME=odakas
 ARG UID=2000

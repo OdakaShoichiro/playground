@@ -4,13 +4,17 @@ services:
     build:
       context: ..
       dockerfile: .devcontainer/Dockerfile
+      args:
+        BASE_IMAGE: ${BASE_IMAGE:-ubuntu:24.04}
+        GPU_ENABLED: ${GPU_ENABLED:-false}
+    platform: ${TARGET_PLATFORM:-linux/amd64}
     command: sleep infinity
     deploy:
       resources:
         reservations:
           devices:
-            - driver: nvidia
-              count: all
+            - driver: ${GPU_DRIVER:-nvidia}
+              count: ${GPU_COUNT:-0}
               capabilities: [ gpu ]
     expose:
       - "18888"

@@ -10,22 +10,28 @@
 2. Docker buildx で `linux/amd64` / `linux/arm64` の multi-arch ビルドに対応し、Apple Silicon でも再現可能にする。
 3. 開発者が `GPU_ENABLED` (仮称) や `TARGET_PLATFORM` の設定のみで適切なイメージを選択できるようにする。
 
-## 提案する構成
+## 実装状況
+- `.devcontainer/Dockerfile` は `ARG BASE_IMAGE` と `ARG GPU_ENABLED` を受け取り、デフォルトでは `ubuntu:24.04` の CPU 版、`BASE_IMAGE=nvidia/cuda:13.0.2-cudnn-devel-ubuntu24.04` を渡すことで CUDA 版をビルドできるようにした。
+- `.devcontainer/compose.yml` で `BASE_IMAGE` / `GPU_ENABLED` / `TARGET_PLATFORM` を build args / platform に流し込み、`.devcontainer/.env` に値を書くだけで切り替え可能。
+- GPU リソースは `GPU_COUNT` (0, 1, all) で制御し、CPU 版では 0 のまま GPU 要求を無効化する。
+- `.devcontainer/.env.example` を追加し、Compose が読む `.env` をユーザーごとに複製して使う運用にした。
+
+## 今後の構成 (Milestone 1 での仕上げ)
 
 ### Dockerfile レイヤー構成
 | セクション | CUDA (GPU) モード | CPU/MPS モード | 備考 |
 | --- | --- | --- | --- |
-| ベースイメージ | `nvidia/cuda:13.0.2-cudnn-devel-ubuntu24.04` | `ubuntu:24.04` | `ARG GPU_ENABLED=true` を導入し、`FROM ${GPU_ENABLED:+nvidia/...}` のように切り替え。 |
+| ベースイメージ | `nvidia/cuda:13.0.2-cudnn-devel-ubuntu24.04` | `ubuntu:24.04` | `BASE_IMAGE` を build arg で渡す方式で実装済み。 |
 | NVIDIA ツール | 既存のまま (`nvidia-*` ランタイムが含まれる) | スキップ | CPU モードでは `apt` で `nvidia-*` をインストールしない。 |
 | 共通依存 | clang/cmake/git/mecab など | 同じ | 可能な限り共通レイヤーにまとめる。 |
 | GPU 専用 | `nvidia-container-toolkit` の設定、`CUDA` 用の env | スキップ | GPU のみ `ENV NVIDIA_VISIBLE_DEVICES=all` 等を設定。 |
 
 ### build arguments / compose オプション
-- `ARG GPU_ENABLED=true`: Dockerfile で base image と GPU 専用レイヤーの導通に使用。
+- `ARG GPU_ENABLED=true`: Dockerfile で base image と GPU 専用レイヤーの導通に使用 (現状は env のみ設定)。
 - `ARG TARGETARCH`, `ARG TARGETPLATFORM`: buildx から渡される値を利用し、Apple Silicon (`linux/arm64`) と Windows/Linux (`linux/amd64`) の差分を吸収。
-- `docker-compose` 側では以下を追加/調整:
+- `docker-compose` 側では以下を追加済み:
   - `platform: ${TARGET_PLATFORM:-linux/amd64}` (Apple Silicon で `linux/arm64` に切り替え)
-  - GPU モード時のみ `deploy.resources.reservations.devices` を有効化 (compose override か env 条件で制御)。
+  - GPU モード時のみ `deploy.resources.reservations.devices` を有効化するために `GPU_COUNT` を 0 / all で切り替える。
 
 ### ビルド・配布の流れ
 1. `devcontainer.json` で `"runArgs"` もしくは `compose` override を使い、`GPU_ENABLED` と `TARGET_PLATFORM` を `build.args` に注入。
