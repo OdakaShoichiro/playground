@@ -6,7 +6,7 @@ mise settings add idiomatic_version_file_enable_tools "[]"
 mise install -y
 
 # Python
-uv sync --no-lock
+bash /workspace/setup/uv-sync.sh
 
 # R
 R -e "install.packages('renv', repos = 'http://cran.rstudio.com/')"

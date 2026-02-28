@@ -22,6 +22,7 @@ https://docs.nvidia.com/cuda/wsl-user-guide/index.html
 
 [setup-all.sh](setup/setup-all.sh) あるいはその中の各言語のセットアップコマンド・スクリプトを実行することでセットアップできます。
 各言語のランタイムは[mise](https://mise.jdx.dev/)で管理されています。
+Python 依存の同期には `setup/uv-sync.sh` を呼び出しており、OS/アーキテクチャごとに `uv sync --python-platform ...` を切り替えて解決しています。手動で `uv sync` を実行する場合も `bash setup/uv-sync.sh` を利用すると、Mac (CPU/MPS) / Linux (CUDA) の両環境で同じコマンドを再現できます。詳細は [docs/python-platform-constraints.md](docs/python-platform-constraints.md) を参照してください。
 
 ## 起動
 
