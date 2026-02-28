@@ -38,7 +38,7 @@
 ## Milestone 3: 自動化とテスト (1〜2 週間)
 1. GitHub Actions などで `linux/amd64` + CUDA, `linux/arm64` + CPU の 2 パターンでビルド/セットアップテストを行うワークフローを追加。
 2. `start-lab.sh` や各言語セットアップに対して基本的なヘルスチェック (Jupyter 起動, `pip list`, `julia --project -e 'using Pkg; Pkg.test()'` など) を Mac 上で自動実行。
-3. issue / PR テンプレートで「Mac 対応部分に影響する変更」チェックボックスを追加し、回 regressions を防止。
+3. issue / PR テンプレートで「Mac 対応部分に影響する変更」チェックボックスを追加し、リグレッションを防止。
 
 ## Milestone 4: ドキュメントとナレッジ整備 (並行作業)
 1. README, `roadmap.md`, Wiki に Mac 前提で必要なハードウェア/ソフトウェア要件、既知の制限事項を明記。

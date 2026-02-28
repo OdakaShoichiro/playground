@@ -13,7 +13,7 @@ dependencies = [
     "huggingface-hub>=1.2.3",
     "ipyvuetable>=0.7.21",
     "jax>=0.8.2",
-    "jax-metal>=0.0.7; platform_system == 'Darwin' and platform_machine == 'arm64'",
+    "jax-metal>=0.0.7; platform_system == 'Darwin' and (platform_machine == 'arm64' or platform_machine == 'aarch64')",
     "jupyter>=1.1.1",
     "jupyterlab-code-formatter>=3.0.2",
     "jupyterlab-language-pack-ja-jp>=4.4.post3",
